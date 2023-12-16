@@ -27,6 +27,7 @@ sudo ./clean-up.sh
 | Sipeed Lichee Pi 4A / TH1520   | RevyOS / 6.6.4             | 451 Mbits/sec  |
 | Phicomm N1 / S905D             | ophub-openwrt / 6.1.66     | 537 Mbits/sec  |
 | TP-Link XDR 6088 / MT7986      | OpenWRT 23.05.0 / 5.15.134 | 818 Mbits/sec  |
+| HP T430 / Intel Celeron N4000  | Kiddin OpenWRT / 5.15.127  | 1.06 Gbits/sec |
 | Mac Mini (2020) / Apple M1*    | AsahiLinux / 6.5.0         | 1.60 Gbits/sec |
 | Phytium D2000x8 (2.3GHz)       | Debian bookworm / 6.1.66   | 2.05 Gbits/sec |
 | Intel Celeron(R) J4125         | Linux pve / 6.2.16         | 2.12 Gbits/sec |
