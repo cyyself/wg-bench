@@ -4,6 +4,8 @@ Test WireGuard performance using netns and iperf3.
 
 ## How to use
 
+In most distros, `wireguard-tools` and `iperf3` are the only required packages.
+
 ```shell
 sudo ./setup-netns.sh
 sudo ./benchmark.sh
