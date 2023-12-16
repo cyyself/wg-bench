@@ -6,20 +6,13 @@ Test WireGuard performance using netns and iperf3.
 
 In most distros, `wireguard-tools` and `iperf3` are the only required packages.
 
+In OpenWRT, packages `ip-full` and `kmod-veth` are also required.
+
 ```shell
 sudo ./setup-netns.sh
 sudo ./benchmark.sh
 sudo ./clean-up.sh
 ```
-
-## Note for OpenWRT
-
-In OpenWRT, except for `wireguard-tools` and `iperf3`, packages `ip-full` and `kmod-veth` are also required.
-
-## About Result
-
-This program only benchmarks your CPU and Kernel network stack, the end-to-end performance will also be affected by your NIC, NIC-driver etc.
-
 
 ## Test Results
 
@@ -38,3 +31,7 @@ This program only benchmarks your CPU and Kernel network stack, the end-to-end p
 | Intel Core i9 13900K           | Debian trixie / 6.5.13     | 7.53 Gbits/sec |
 
 If you have more results to show, PR is welcomed.
+
+## About Result
+
+This program only benchmarks your CPU and Kernel network stack, the end-to-end performance will also be affected by your NIC, NIC-driver etc.
