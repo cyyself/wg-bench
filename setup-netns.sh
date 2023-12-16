@@ -14,8 +14,8 @@ ip link set ${NIC} up
 ip netns exec ${NETNS} ip link set ${NIC}-ns up
 
 # Setup WG for host
-wg genkey > host-privkey
-wg genkey > ns-privkey
+wg genkey > host-privkey 2> /dev/null
+wg genkey > ns-privkey 2> /dev/null
 ip link add ${NIC}-wg type wireguard
 wg set ${NIC}-wg listen-port ${HOST_PORT} private-key host-privkey
 ip addr add ${HOST_WG_IP}/32 dev ${NIC}-wg peer ${NS_WG_IP}
