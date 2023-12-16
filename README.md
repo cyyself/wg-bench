@@ -29,6 +29,7 @@ sudo ./clean-up.sh
 | TP-Link XDR 6088 / MT7986      | OpenWRT 23.05.0 / 5.15.134 | 818 Mbits/sec  |
 | HP T430 / Intel Celeron N4000  | Kiddin OpenWRT / 5.15.127  | 1.06 Gbits/sec |
 | Mac Mini (2020) / Apple M1*    | AsahiLinux / 6.5.0         | 1.60 Gbits/sec |
+| Loongson-3A6000-HV             | LoongArchLinux / 6.6.0-rc4 | 1.85 Gbits/sec |
 | Phytium D2000x8 (2.3GHz)       | Debian bookworm / 6.1.66   | 2.05 Gbits/sec |
 | Intel Celeron(R) J4125         | Linux pve / 6.2.16         | 2.12 Gbits/sec |
 | Intel Xeon Silver 4210R        | Linux pve / 6.2.16         | 2.31 Gbits/sec |
