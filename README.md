@@ -16,6 +16,8 @@ sudo ./clean-up.sh
 
 ## Test Results
 
+* refers to this device that may have quite a difference in speed with different configurations.
+
 | Device / CPU                   | OS / Kernel / iperf Param  | Speed          |
 | ------------------------------ | -------------------------- | -------------- |
 | CMCC RAX3000M / MT7981         | OpenWRT 23.05.2 / 5.15.137 | 369 Mbits/sec  |
@@ -24,10 +26,10 @@ sudo ./clean-up.sh
 | Sipeed Lichee Pi 4A / TH1520   | RevyOS / 6.6.4             | 451 Mbits/sec  |
 | Phicomm N1 / S905D             | ophub-openwrt / 6.1.66     | 537 Mbits/sec  |
 | TP-Link XDR 6088 / MT7986      | OpenWRT 23.05.0 / 5.15.134 | 818 Mbits/sec  |
-| Mac Mini (2020) / Apple M1     | AsahiLinux / 6.5.0         | 1.60 Gbits/sec |
-| Mac Mini (2020) / Apple M1     | AsahiLinux / 6.5.0 / -R    | 3.62 Gbits/sec |
+| Mac Mini (2020) / Apple M1*    | AsahiLinux / 6.5.0         | 1.60 Gbits/sec |
 | Phytium D2000x8 (2.3GHz)       | Debian bookworm / 6.1.66   | 2.05 Gbits/sec |
 | Intel Celeron(R) J4125         | Linux pve / 6.2.16         | 2.12 Gbits/sec |
+| Mac Mini (2020) / Apple M1*    | AsahiLinux / 6.5.0 / -R    | 3.62 Gbits/sec |
 | Intel Pentium(R) Silver N6005  | iStoreOS / 5.10.176        | 3.85 Gbits/sec |
 | AMD Ryzen 5 PRO 5650GE         | Linux pve / 6.2.16         | 5.29 Gbits/sec |
 | Intel Core i9 13900K           | Debian trixie / 6.5.13     | 7.53 Gbits/sec |
