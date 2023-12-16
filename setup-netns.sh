@@ -24,9 +24,9 @@ ip link set ${NIC}-wg up
 
 # Setup WG for netns
 ip netns exec ${NETNS} ip link add ${NIC}-wg type wireguard
-ip netns exec ${NETNS} wg set ${NIC}-wg listen-port ${NS_PORT} private-key /tmp/ns-privkey
+ip netns exec ${NETNS} wg set ${NIC}-wg listen-port ${NS_PORT} private-key $PWD/ns-privkey
 ip netns exec ${NETNS} ip addr add ${NS_WG_IP}/32 dev ${NIC}-wg peer ${HOST_WG_IP}
-ip netns exec ${NETNS} wg set ${NIC}-wg peer $(wg pubkey < /tmp/host-privkey) allowed-ips ${HOST_WG_IP}/32 endpoint ${HOST_VETH_IP}:${HOST_PORT}
+ip netns exec ${NETNS} wg set ${NIC}-wg peer $(wg pubkey < $PWD/host-privkey) allowed-ips ${HOST_WG_IP}/32 endpoint ${HOST_VETH_IP}:${HOST_PORT}
 ip netns exec ${NETNS} ip link set ${NIC}-wg up
 rm host-privkey
 rm ns-privkey
