@@ -1,0 +1,10 @@
+#!/bin/bash
+
+NETNS="wg-bench"
+NIC="wg-bench"
+HOST_VETH_IP="11.0.0.1"
+NS_VETH_IP="11.0.0.2"
+HOST_WG_IP="169.254.200.1"
+NS_WG_IP="169.254.200.2"
+HOST_PORT="11001"
+NS_PORT="11002"
