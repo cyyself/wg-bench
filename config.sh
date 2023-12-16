@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 NETNS="wg-bench"
 NIC="wg-bench"
