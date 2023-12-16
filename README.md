@@ -5,9 +5,9 @@ Test WireGuard performance using netns and iperf3.
 ## How to use
 
 ```shell
-./setup-netns.sh
-./benchmark.sh
-./clean-up.sh
+sudo ./setup-netns.sh
+sudo ./benchmark.sh
+sudo ./clean-up.sh
 ```
 
 ## Note for OpenWRT
