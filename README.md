@@ -12,7 +12,7 @@ sudo ./clean-up.sh
 
 ## Note for OpenWRT
 
-In OpenWRT, you need to install `ip-full` and `kmod-veth` packages.
+In OpenWRT, except for `wireguard-tools` and `iperf3`, packages `ip-full` and `kmod-veth` are also required.
 
 ## About Result
 
