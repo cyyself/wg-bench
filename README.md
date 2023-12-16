@@ -16,7 +16,7 @@ sudo ./clean-up.sh
 
 ## Test Results
 
-\* refers to this device that may have quite a difference in speed with different configurations.
+\* refers to this device having quite a difference in speed with different configurations.
 
 | Device / CPU                   | OS / Kernel / iperf Param  | Speed          |
 | ------------------------------ | -------------------------- | -------------- |
