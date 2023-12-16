@@ -23,6 +23,7 @@ sudo ./clean-up.sh
 | CMCC RAX3000M / MT7981         | OpenWRT 23.05.2 / 5.15.137 | 369 Mbits/sec  |
 | 360 T7 / MT7981                | OpenWRT 23.05.0 / 5.15.134 | 369 Mbits/sec  |
 | Redmi AX6S / MT7622            | OpenWRT 23.05.2 / 5.15.137 | 391 Mbits/sec  |
+| Milk-V Pioneer / SG2042        | RevyOS / 6.1.61            | 440 Mbits/sec  |
 | Sipeed Lichee Pi 4A / TH1520   | RevyOS / 6.6.4             | 451 Mbits/sec  |
 | Phicomm N1 / S905D             | ophub-openwrt / 6.1.66     | 537 Mbits/sec  |
 | TP-Link XDR 6088 / MT7986      | OpenWRT 23.05.0 / 5.15.134 | 818 Mbits/sec  |
