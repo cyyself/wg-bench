@@ -27,6 +27,7 @@ sudo ./clean-up.sh
 | Sipeed Lichee Pi 4A / TH1520   | RevyOS / 6.6.4             | 451 Mbits/sec  |
 | Phicomm N1 / S905D             | ophub-openwrt / 6.1.66     | 537 Mbits/sec  |
 | Orange Pi 5 / Rockchip rk3588s | Armbian 23.8.1 / 5.10.110  | 772 Mbits/sec  |
+| Intel Celeron(R) J1800         | Ubuntu 22.04.3 / 5.15.0    | 551 Mbits/sec  |
 | TP-Link XDR 6088 / MT7986      | OpenWRT 23.05.0 / 5.15.134 | 818 Mbits/sec  |
 | HP T430 / Intel Celeron N4000  | Kiddin OpenWRT / 5.15.127  | 1.06 Gbits/sec |
 | Mac Mini (2020) / Apple M1*    | AsahiLinux / 6.5.0         | 1.60 Gbits/sec |
@@ -39,6 +40,7 @@ sudo ./clean-up.sh
 | Mac Mini (2020) / Apple M1*    | AsahiLinux / 6.5.0 / -R    | 3.62 Gbits/sec |
 | Intel Pentium(R) Silver N6005  | iStoreOS / 5.10.176        | 3.85 Gbits/sec |
 | AMD Ryzen 5 PRO 5650GE         | Linux pve / 6.2.16         | 5.29 Gbits/sec |
+| AMD Ryzen 9 7950X              | Ubuntu 22.04.3 / 5.15.0    | 5.64 Gbits/sec |
 | Intel Core i9 13900K           | Debian trixie / 6.5.13     | 7.53 Gbits/sec |
 
 If you have more results to show, PR is welcomed.
