@@ -26,6 +26,7 @@ sudo ./clean-up.sh
 | Milk-V Pioneer / SG2042        | RevyOS / 6.1.61            | 440 Mbits/sec  |
 | Sipeed Lichee Pi 4A / TH1520   | RevyOS / 6.6.4             | 451 Mbits/sec  |
 | Phicomm N1 / S905D             | ophub-openwrt / 6.1.66     | 537 Mbits/sec  |
+| Orange Pi 5 / Rockchip rk3588s | Armbian 23.8.1 / 5.10.110  | 772 Mbits/sec  |
 | TP-Link XDR 6088 / MT7986      | OpenWRT 23.05.0 / 5.15.134 | 818 Mbits/sec  |
 | HP T430 / Intel Celeron N4000  | Kiddin OpenWRT / 5.15.127  | 1.06 Gbits/sec |
 | Mac Mini (2020) / Apple M1*    | AsahiLinux / 6.5.0         | 1.60 Gbits/sec |
