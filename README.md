@@ -12,7 +12,7 @@ sudo ./clean-up.sh
 
 ## Note for OpenWRT
 
-In OpenWRT, you need to install `ip-full` package to manage netns.
+In OpenWRT, you need to install `ip-full` and `kmod-veth` packages.
 
 ## About Result
 
