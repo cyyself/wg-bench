@@ -29,6 +29,7 @@ This program only benchmarks your CPU and Kernel network stack, the end-to-end p
 | Sipeed Lichee Pi 4A / TH1520   | RevyOS / 6.6.4             | 451 Mbits/sec  |
 | Phicomm N1 / S905D             | ophub-openwrt / 6.1.66     | 537 Mbits/sec  |
 | TP-Link XDR 6088 / MT7986      | OpenWRT 23.05.0 / 5.15.134 | 818 Mbits/sec  |
+| Mac Mini (2020) / Apple M1     | AsahiLinux / 6.5.0         | 1.60 Gbits/sec |
 | Intel Celeron(R) J4125         | Linux pve / 6.2.16         | 2.12 Gbits/sec |
 | Intel Pentium(R) Silver N6005  | iStoreOS / 5.10.176        | 3.85 Gbits/sec |
 | AMD Ryzen 5 PRO 5650GE         | Linux pve / 6.2.16         | 5.29 Gbits/sec |
