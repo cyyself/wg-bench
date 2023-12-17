@@ -30,7 +30,7 @@ sudo ./clean-up.sh
 | Phicomm N1 / S905D             | ophub-openwrt / 6.1.66     | 537 Mbits/sec  |
 | Intel Celeron(R) J1800         | Ubuntu 22.04.3 / 5.15.0    | 551 Mbits/sec  |
 | Raspberry Pi 4 / BCM2711*      | archlinux / 6.1.61(armv7l) | 665 Mbits/sec  |
-| Orange Pi 5 / Rockchip rk3588s | Armbian 23.8.1 / 5.10.110  | 772 Mbits/sec  |
+| OrangePi 5 / Rockchip rk3588s* | Armbian 23.8.1 / 5.10.110  | 772 Mbits/sec  |
 | TP-Link XDR 6088 / MT7986      | OpenWRT 23.05.0 / 5.15.134 | 818 Mbits/sec  |
 | Raspberry Pi 4 / BCM2711*      | OpenWRT 23.05.2 / 5.15.137 | 1.01 Gbits/sec |
 | HP T430 / Intel Celeron N4000  | Kiddin OpenWRT / 5.15.127  | 1.06 Gbits/sec |
@@ -39,6 +39,7 @@ sudo ./clean-up.sh
 | Phytium D2000x8 (2.3GHz)       | Debian bookworm / 6.1.66   | 2.05 Gbits/sec |
 | Intel Celeron(R) J4125         | Linux pve / 6.2.16         | 2.12 Gbits/sec |
 | Intel Xeon Silver 4210R        | Linux pve / 6.2.16         | 2.31 Gbits/sec |
+| OrangePi 5 / Rockchip rk3588s* | Armbian23.8.1 /5.10.110/-R | 2.35 Gbits/sec |
 | Intel Xeon Gold 6330           | Linux pve / 5.15.108       | 2.54 Gbits/sec |
 | AMD EPYC 7302                  | Debian bookworm / 6.1.55   | 2.69 Gbits/sec |
 | Mac Mini (2020) / Apple M1*    | AsahiLinux / 6.5.0 / -R    | 3.62 Gbits/sec |
