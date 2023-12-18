@@ -24,7 +24,7 @@ sudo ./clean-up.sh
 | CMCC RAX3000M / MT7981           | OpenWRT 23.05.2 / 5.15.137       | 369 Mbits/sec  | |
 | 360 T7 / MT7981                  | OpenWRT 23.05.0 / 5.15.134       | 369 Mbits/sec  | |
 | Redmi AX6S / MT7622              | OpenWRT 23.05.2 / 5.15.137       | 391 Mbits/sec  | |
-| Raspberry Pi 4 / BCM2711*        | Debian bookworm / 6.1.63         | 394 Mbits/sec  | |
+| Raspberry Pi 4 / BCM2711*        | Raspberry Pi OS / 6.1.63         | 394 Mbits/sec  | |
 | StarFive VisionFive 2 / JH7110   | Debian trixie / 5.15.0           | 402 Mbits/sec  | |
 | Milk-V Pioneer / SG2042          | RevyOS / 6.1.61                  | 440 Mbits/sec  | |
 | Sipeed Lichee Pi 4A / TH1520     | RevyOS / 6.6.4                   | 451 Mbits/sec  | |
@@ -34,6 +34,7 @@ sudo ./clean-up.sh
 | OrangePi 5 / Rockchip rk3588s*   | Armbian 23.8.1 / 5.10.110        | 772 Mbits/sec  | |
 | TP-Link XDR 6088 / MT7986        | OpenWRT 23.05.0 / 5.15.134       | 818 Mbits/sec  | |
 | Raspberry Pi 4 / BCM2711*        | OpenWRT 23.05.2 / 5.15.137       | 1.01 Gbits/sec | |
+| Raspberry Pi 4 / BCM2711*        | Raspberry Pi OS / 6.1.68         | 1.05 Gbits/sec | Reconfigure Kernel [#5](https://github.com/cyyself/wg-bench/issues/5) |
 | HP T430 / Intel Celeron N4000    | Kiddin OpenWRT / 5.15.127        | 1.06 Gbits/sec | |
 | Raspberry Pi 5 / BCM2712*        | Raspberry Pi OS / 6.1.63         | 1.13 Gbits/sec | |
 | Mac Mini (2020) / Apple M1*      | AsahiLinux / 6.5.0               | 1.60 Gbits/sec | |
