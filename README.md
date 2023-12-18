@@ -48,6 +48,7 @@ sudo ./clean-up.sh
 | AMD Ryzen 5 PRO 5650GE           | Linux pve / 6.2.16               | 5.29 Gbits/sec |
 | AMD Ryzen 9 7950X                | Ubuntu 22.04.3 / 5.15.0          | 5.64 Gbits/sec |
 | Intel Core i9 13900K             | Debian trixie / 6.5.13           | 7.53 Gbits/sec |
+| Intel Core i9 12900KS            | Ubuntu 22.04 / 6.2.0-32          | 8.30 Gbits/sec |
 
 If you have more results to show, PR is welcomed.
 
