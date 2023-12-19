@@ -20,6 +20,7 @@ sudo ./clean-up.sh
 
 | Device / CPU                     | OS / Kernel / iperf Param        | Speed          | Note |
 | -------------------------------- | -------------------------------- | -------------- | - |
+| Toshiba Satellite 480CDT / Pentium MMX 233MHz | Alpine Linux 3.18 / 6.2.0-rc7 | 3.2 Mbits/sec   | |
 | D-Team Newifi D2 / MT7621        | OpenWrt 23.05.2 / 5.15.137       | 93 Mbits/sec   | |
 | CMCC RAX3000M / MT7981           | OpenWRT 23.05.2 / 5.15.137       | 369 Mbits/sec  | |
 | 360 T7 / MT7981                  | OpenWRT 23.05.0 / 5.15.134       | 369 Mbits/sec  | |
