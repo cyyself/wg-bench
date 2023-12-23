@@ -38,6 +38,7 @@ sudo ./clean-up.sh
 | Raspberry Pi 4 / BCM2711*        | Raspberry Pi OS / 6.1.68         | 1.05 Gbits/sec | Reconfigure Kernel [#5](https://github.com/cyyself/wg-bench/issues/5) |
 | HP T430 / Intel Celeron N4000    | Kiddin OpenWRT / 5.15.127        | 1.06 Gbits/sec | |
 | Raspberry Pi 5 / BCM2712*        | Raspberry Pi OS / 6.1.63         | 1.13 Gbits/sec | |
+| Intel Atom C3558                 | Debian bookworm / 6.1.0-13       | 1.26 Gbits/sec | |
 | Mac Mini (2020) / Apple M1*      | AsahiLinux / 6.5.0               | 1.60 Gbits/sec | |
 | Loongson-3A6000-HV               | LoongArchLinux / 6.6.0-rc4       | 1.85 Gbits/sec | |
 | Phytium D2000x8 (2.3GHz)         | Debian bookworm / 6.1.66         | 2.05 Gbits/sec | |
@@ -47,12 +48,14 @@ sudo ./clean-up.sh
 | Intel Celeron N5105              | Debian bookworm / 6.1.38         | 2.46 Gbits/sec | |
 | Intel Xeon Gold 6330             | Linux pve / 5.15.108             | 2.54 Gbits/sec | |
 | AMD EPYC 7302                    | Debian bookworm / 6.1.55         | 2.69 Gbits/sec | |
+| Intel Atom P5342                 | Debian bookworm / 6.1.0-16       | 2.89 Gbits/sec | |
 | Raspberry Pi 5 / BCM2712*        | Raspberry Pi OS / 6.1.68         | 3.08 Gbits/sec | Reconfigure Kernel [#5](https://github.com/cyyself/wg-bench/issues/5) |
 | Mac Mini (2020) / Apple M1*      | AsahiLinux / 6.5.0 / -R          | 3.62 Gbits/sec | |
 | Intel Pentium(R) Silver N6005    | iStoreOS / 5.10.176              | 3.85 Gbits/sec | |
 | Intel Core i5-4590               | Debian bookworm / 6.1.38         | 4.21 Gbits/sec | |
 | AMD Ryzen 5 PRO 5650GE           | Linux pve / 6.2.16               | 5.29 Gbits/sec | |
 | AMD Ryzen 9 7950X                | Ubuntu 22.04.3 / 5.15.0          | 5.64 Gbits/sec | |
+| Intel Core i5-8365U              | Debian bullseye / 5.10.0-24      | 5.64 Gbits/sec | |
 | Intel Core i9 13900K             | Debian trixie / 6.5.13           | 7.53 Gbits/sec | |
 | Intel Core i9 12900KS            | Ubuntu 22.04 / 6.2.0-32          | 8.30 Gbits/sec | |
 
