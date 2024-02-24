@@ -50,14 +50,14 @@ sudo ./clean-up.sh
 | AMD EPYC 7302                    | Debian bookworm / 6.1.55         | 2.69 Gbits/sec | |
 | Intel Atom P5342                 | Debian bookworm / 6.1.0-16       | 2.89 Gbits/sec | |
 | Raspberry Pi 5 / BCM2712*        | Raspberry Pi OS / 6.1.68         | 3.08 Gbits/sec | Reconfigure Kernel [#5](https://github.com/cyyself/wg-bench/issues/5) |
-| AMD Ryzen 9 5950X                | Arch Linux / 6.7.6-arch1-1       | 3.28 Gbits/sec | test 1 firewalld: running ; irqbalance: running |
-| AMD Ryzen 9 5950X                | Arch Linux / 6.7.6-arch1-1       | 3.55 Gbits/sec | test 5 firewalld: stopped ; irqbalance: running ; nftables |
+| AMD Ryzen 9 5950X*               | Arch Linux / 6.7.6-arch1-1       | 3.28 Gbits/sec | [test 1 firewalld: running ; irqbalance: running](https://github.com/teelfox/wg-bench/blob/master/teelfox_ryzen_9_5950X.md) |
+| AMD Ryzen 9 5950X*               | Arch Linux / 6.7.6-arch1-1       | 3.55 Gbits/sec | [test 5 firewalld: stopped ; irqbalance: running ; nftables](https://github.com/teelfox/wg-bench/blob/master/teelfox_ryzen_9_5950X.md) |
 | Mac Mini (2020) / Apple M1*      | AsahiLinux / 6.5.0 / -R          | 3.62 Gbits/sec | |
-| AMD Ryzen 9 5950X                | Arch Linux / 6.7.6-arch1-1       | 3.63 Gbits/sec | test 2 firewalld: running ; irqbalance: stopped |
+| AMD Ryzen 9 5950X*               | Arch Linux / 6.7.6-arch1-1       | 3.63 Gbits/sec | [test 2 firewalld: running ; irqbalance: stopped](https://github.com/teelfox/wg-bench/blob/master/teelfox_ryzen_9_5950X.md) ; needs retesting [#1](https://github.com/teelfox/wg-bench/issues/1) |
 | Intel Pentium(R) Silver N6005    | iStoreOS / 5.10.176              | 3.85 Gbits/sec | |
-| AMD Ryzen 9 5950X                | Arch Linux / 6.7.6-arch1-1       | 4.14 Gbits/sec | test 4 firewalld: stopped ; irqbalance: stopped |
+| AMD Ryzen 9 5950X*               | Arch Linux / 6.7.6-arch1-1       | 4.14 Gbits/sec | [test 4 firewalld: stopped ; irqbalance: stopped](https://github.com/teelfox/wg-bench/blob/master/teelfox_ryzen_9_5950X.md) |
 | Intel Core i5-4590               | Debian bookworm / 6.1.38         | 4.21 Gbits/sec | |
-| AMD Ryzen 9 5950X                | Arch Linux / 6.7.6-arch1-1       | 4.30 Gbits/sec | test 3 firewalld: stopped ; irqbalance: running |
+| AMD Ryzen 9 5950X*               | Arch Linux / 6.7.6-arch1-1       | 4.30 Gbits/sec | [test 3 firewalld: stopped ; irqbalance: running](https://github.com/teelfox/wg-bench/blob/master/teelfox_ryzen_9_5950X.md) ; needs retesting [#1](https://github.com/teelfox/wg-bench/issues/1) |
 | AMD Ryzen 5 PRO 5650GE           | Linux pve / 6.2.16               | 5.29 Gbits/sec | |
 | AMD Ryzen 9 7950X                | Ubuntu 22.04.3 / 5.15.0          | 5.64 Gbits/sec | |
 | Intel Core i5-8365U              | Debian bullseye / 5.10.0-24      | 5.64 Gbits/sec | |
