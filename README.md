@@ -23,8 +23,8 @@ sudo ./clean-up.sh
 | Toshiba Satellite 480CDT / Pentium MMX 233MHz | Alpine Linux 3.18 / 6.2.0-rc7 | 3.2 Mbits/sec   | |
 | Raspberry Pi Model B / BCM2835   | OpenWrt 23.05.2 / 5.15.137       | 16.1 Mbits/sec | |
 | Buffalo WCR-1166DS / MT7628AN    | OpenWrt 23.05.2 / 5.15.137       | 18.3 Mbits/sec | |
-| GL-iNET MT300N V1 / MT7620N      | OpenWrt 23.05.2 / 5.15.137       | 19.2 Mbits/sec | |
-| GL-INET MT1300 / MT7621A         | OpenWrt 23.05.2 / 5.15.137       | 82.5 Mbits/sec | |
+| GL-iNet MT300N V1 / MT7620N      | OpenWrt 23.05.2 / 5.15.137       | 19.2 Mbits/sec | |
+| GL-iNet MT1300 / MT7621A         | OpenWrt 23.05.2 / 5.15.137       | 82.5 Mbits/sec | |
 | D-Team Newifi D2 / MT7621AT      | OpenWrt 23.05.2 / 5.15.137       | 93 Mbits/sec   | |
 | Zyxel WSM20 / MT7621AT           | OpenWrt 23.05.2 / 5.15.137       | 98.3 Mbits/sec | |
 | Ubiquit EdgeRouter-X / MT7621AT  | OpenWrt 23.05.2 / 5.15.137       | 99 Mbits/sec   | |
@@ -38,7 +38,7 @@ sudo ./clean-up.sh
 | Linksys WRT1900ACv2  / 88F6820   | OpenWrt 23.05.2 / 5.15.137       | 361 Mbits/sec  | |
 | CMCC RAX3000M / MT7981           | OpenWRT 23.05.2 / 5.15.137       | 369 Mbits/sec  | |
 | 360 T7 / MT7981                  | OpenWRT 23.05.0 / 5.15.134       | 369 Mbits/sec  | |
-| GL-INET MT3000 / MT7981          | GL 5.4.211 / 5.10.0              | 369 Mbits/sec  | |
+| GL-iNet MT3000 / MT7981          | GL 5.4.211 / 5.10.0              | 369 Mbits/sec  | |
 | Routerich AX3000 / MT7981        | OpenWRT 23.05.2 / 5.15.137       | 381 Mbits/sec  | |
 | Netgear WAX206 / MT7622          | OpenWRT 23.05.2 / 5.15.137       | 381 Mbits/sec  | |
 | Redmi AX6S / MT7622              | OpenWRT 23.05.2 / 5.15.137       | 391 Mbits/sec  | |
@@ -57,7 +57,7 @@ sudo ./clean-up.sh
 | Intel Celeron N2930              | OpenWRT 23.05.2 / 5.15.137       | 762 Mbits/sec  | |
 | OrangePi 5 / Rockchip rk3588s*   | Armbian 23.8.1 / 5.10.110        | 772 Mbits/sec  | |
 | Asus TUF-AX6000 / MT7986AV       | OpenWRT Snapshot / 6.1.78        | 786 Mbits/sec  | |
-| GL-iNET MT6000 / MT7986          | OpenWRT Snapshot / 6.1.78        | 807 Mbits/sec  | |
+| GL-iNet MT6000 / MT7986          | OpenWRT Snapshot / 6.1.78        | 807 Mbits/sec  | |
 | TP-Link XDR 6088 / MT7986        | OpenWRT 23.05.0 / 5.15.134       | 818 Mbits/sec  | |
 | Raspberry Pi 4 / BCM2711*        | OpenWRT 23.05.2 / 5.15.137       | 881 Mbits/sec  | CPU at 1.5GHz |
 | Asus TUF-AX4200 / MT7986AV       | OpenWRT Snapshot / 6.1.78        | 936 Mbits/sec  | |
