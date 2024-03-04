@@ -4,9 +4,9 @@ Test WireGuard performance using netns and iperf3.
 
 ## How to use
 
-In most distros, `wireguard-tools` and `iperf3` are the only required packages.
+On most distros, `wireguard-tools` and `iperf3` are the only two required packages.
 
-In OpenWRT, packages `ip-full` and `kmod-veth` are also required.
+On OpenWRT, packages `ip-full` and `kmod-veth` are also required.
 
 ```shell
 sudo ./setup-netns.sh
