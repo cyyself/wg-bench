@@ -44,6 +44,7 @@ sudo ./clean-up.sh
 | Redmi AX6S / MT7622              | OpenWRT 23.05.2 / 5.15.137       | 391 Mbits/sec  | |
 | Raspberry Pi 4 / BCM2711*        | Raspberry Pi OS / 6.1.63         | 394 Mbits/sec  | |
 | StarFive VisionFive 2 / JH7110   | Debian trixie / 5.15.0           | 402 Mbits/sec  | |
+| Loongson 3A3000-LP               | Debian bookworm / 5.10.209       | 423 Mbits/sec  | CPU reversion variant H2, clocked at 1.45GHz |
 | Linksys WRT3200ACM / 88F6820     | OpenWRT 23.05.2 / 5.15.137       | 426 Mbits/sec  | |
 | Milk-V Pioneer / SG2042          | RevyOS / 6.1.61                  | 440 Mbits/sec  | |
 | Raspberry Pi Zero 2W / BCM2710A1 | OpenWRT 23.05.2 / 5.15.137       | 443 Mbits/sec  | |
@@ -57,6 +58,7 @@ sudo ./clean-up.sh
 | Intel Celeron N2930              | OpenWRT 23.05.2 / 5.15.137       | 762 Mbits/sec  | |
 | OrangePi 5 / Rockchip rk3588s*   | Armbian 23.8.1 / 5.10.110        | 772 Mbits/sec  | |
 | Asus TUF-AX6000 / MT7986AV       | OpenWRT Snapshot / 6.1.78        | 786 Mbits/sec  | |
+| Loongson 3A4000                  | Debian bookworm / 6.1.76         | 799 Mbits/sec  | |
 | GL-iNet MT6000 / MT7986          | OpenWRT Snapshot / 6.1.78        | 807 Mbits/sec  | |
 | TP-Link XDR 6088 / MT7986        | OpenWRT 23.05.0 / 5.15.134       | 818 Mbits/sec  | |
 | Raspberry Pi 4 / BCM2711*        | OpenWRT 23.05.2 / 5.15.137       | 881 Mbits/sec  | CPU at 1.5GHz |
