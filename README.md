@@ -73,6 +73,7 @@ sudo ./clean-up.sh
 | Intel Celeron(R) J4125           | Linux pve / 6.2.16               | 2.12 Gbits/sec | |
 | Intel Xeon Silver 4210R          | Linux pve / 6.2.16               | 2.31 Gbits/sec | |
 | OrangePi 5 / Rockchip rk3588s*   | Armbian23.8.1 / 5.10.110 / -R    | 2.35 Gbits/sec | |
+| AMD EPYC 7D12                    | Linux pve / 6.2.16               | 2.45 Gbits/sec | |
 | Intel Celeron N5105              | Debian bookworm / 6.1.38         | 2.46 Gbits/sec | |
 | Intel Xeon Gold 6330             | Linux pve / 5.15.108             | 2.54 Gbits/sec | |
 | Raspberry Pi 5 / BCM2712*        | Raspberry Pi OS / 6.1.68         | 2.60 Gbits/sec | |
