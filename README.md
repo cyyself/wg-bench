@@ -27,7 +27,10 @@ sudo ./clean-up.sh
 | GL-iNet MT1300 / MT7621A         | OpenWrt 23.05.2 / 5.15.137       | 82.5 Mbits/sec | |
 | D-Team Newifi D2 / MT7621AT      | OpenWrt 23.05.2 / 5.15.137       | 93 Mbits/sec   | |
 | Zyxel WSM20 / MT7621AT           | OpenWrt 23.05.2 / 5.15.137       | 98.3 Mbits/sec | |
+| ASUS RT-AX53U / MT7621AT         | OpenWrt 23.05.2 / 5.15.137       | 98.9 Mbits/sec  | |
 | Ubiquit EdgeRouter-X / MT7621AT  | OpenWrt 23.05.2 / 5.15.137       | 99 Mbits/sec   | |
+| Beeline SmartBox GIGA / MT7621A  | OpenWrt 23.05.2 / 5.15.137       | 100 Mbits/sec  | |
+| Beeline SmartBox PRO / MT7621AT  | OpenWrt 23.05.2 / 5.15.137       | 101 Mbits/sec  | |
 | Beeline SmartBox TURBO+ / MT7621A | OpenWrt Snapshot / 5.15.148       | 104 Mbits/sec  | |
 | TP-Link EC330-G5u V1 / MT7621A   | OpenWrt 23.05.2 / 5.15.137       | 104 Mbits/sec  | |
 | Google WiFi (Gale) / IPQ4019     | OpenWrt 23.05.2 / 5.15.137       | 164 Mbits/sec  | |
