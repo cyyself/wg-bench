@@ -100,6 +100,7 @@ sudo ./clean-up.sh
 | Intel Core i9 13900K             | Debian trixie / 6.5.13           | 7.53 Gbits/sec | |
 | Intel Core i9 12900KS            | Ubuntu 22.04 / 6.2.0-32          | 8.30 Gbits/sec | |
 | MacBook Pro 2023 / Apple M2 Max* | Debian bookworm / 6.7.4-1 | 9.30 Gbits/sec | 4 core VZ VM |
+| MacBook Pro 2023 / Apple M3 Max* | Ubuntu 22.04 / 5.15.0-91 | 9.39 Gbits/sec | 4 core VM (Parallels Desktop 19.3.0) |
 
 If you have more results to show, PR is welcomed.
 
