@@ -49,6 +49,7 @@ sudo ./clean-up.sh
 | StarFive VisionFive 2 / JH7110   | Debian trixie / 5.15.0           | 402 Mbits/sec  | |
 | Loongson 3A3000-LP               | Debian bookworm / 5.10.209       | 423 Mbits/sec  | CPU reversion variant H2, clocked at 1.45GHz |
 | Linksys WRT3200ACM / 88F6820     | OpenWRT 23.05.2 / 5.15.137       | 426 Mbits/sec  | |
+| Phytium Pi (V2.2) / E2000Q (1.5GHz) | deepin V23 Beta3 / 5.10.209   | 437 Mbits/sec  | |
 | Milk-V Pioneer / SG2042          | RevyOS / 6.1.61                  | 440 Mbits/sec  | |
 | Raspberry Pi Zero 2W / BCM2710A1 | OpenWRT 23.05.2 / 5.15.137       | 443 Mbits/sec  | |
 | Sipeed Lichee Pi 4A / TH1520     | RevyOS / 6.6.4                   | 451 Mbits/sec  | |
