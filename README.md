@@ -14,7 +14,7 @@ sudo ./benchmark.sh
 sudo ./clean-up.sh
 ```
 
-### Openwrt one-line script
+### OpenWrt one-line script
 ```shell
 sh <(wget -O - https://raw.githubusercontent.com/cyyself/wg-bench/master/openwrt-benchmark.sh)
 ```
