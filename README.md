@@ -14,6 +14,11 @@ sudo ./benchmark.sh
 sudo ./clean-up.sh
 ```
 
+### OpenWrt one-line script
+```shell
+sh <(wget -O - https://raw.githubusercontent.com/cyyself/wg-bench/master/openwrt-benchmark.sh)
+```
+
 ## Test Results
 
 \* refers to this device having quite a difference in speed with different configurations.
@@ -43,6 +48,7 @@ sudo ./clean-up.sh
 | CMCC RAX3000M / MT7981           | OpenWRT 23.05.2 / 5.15.137       | 369 Mbits/sec  | |
 | 360 T7 / MT7981                  | OpenWRT 23.05.0 / 5.15.134       | 369 Mbits/sec  | |
 | GL-iNet MT3000 / MT7981          | GL 5.4.211 / 5.10.0              | 369 Mbits/sec  | |
+| Xiaomi AX3000T / MT7981          | OpenWrt Snapshot / 6.1.82        | 371 Mbits/sec  | |
 | Routerich AX3000 / MT7981        | OpenWRT 23.05.2 / 5.15.137       | 381 Mbits/sec  | |
 | Netgear WAX206 / MT7622          | OpenWRT 23.05.2 / 5.15.137       | 381 Mbits/sec  | |
 | Redmi AX6S / MT7622              | OpenWRT 23.05.2 / 5.15.137       | 391 Mbits/sec  | |
