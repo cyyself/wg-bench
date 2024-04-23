@@ -88,7 +88,7 @@ sh <(wget -O - https://raw.githubusercontent.com/cyyself/wg-bench/master/openwrt
 | Intel Xeon Silver 4210R          | Linux pve / 6.2.16               | 2.31 Gbits/sec | |
 | OrangePi 5 / Rockchip rk3588s*   | Armbian23.8.1 / 5.10.110 / -R    | 2.35 Gbits/sec | |
 | AMD EPYC 7D12                    | Linux pve / 6.2.16               | 2.45 Gbits/sec | |
-| Intel Celeron N5105              | Debian bookworm / 6.1.38         | 2.46 Gbits/sec | |
+| Intel Celeron N5105*             | Debian bookworm / 6.1.38         | 2.46 Gbits/sec | |
 | Intel Xeon Gold 6330             | Linux pve / 5.15.108             | 2.54 Gbits/sec | |
 | Raspberry Pi 5 / BCM2712         | Raspberry Pi OS / 6.1.68         | 2.60 Gbits/sec | |
 | AMD EPYC 7302                    | Debian bookworm / 6.1.55         | 2.69 Gbits/sec | |
@@ -96,6 +96,7 @@ sh <(wget -O - https://raw.githubusercontent.com/cyyself/wg-bench/master/openwrt
 | Intel Xeon E3-1265L v3           | Debian trixie / 6.6.13           | 3.03 Gbits/sec | |
 | Raspberry Pi 5 / BCM2712*        | Raspberry Pi OS / 6.1.68         | 3.08 Gbits/sec | Reconfigure Kernel [#5](https://github.com/cyyself/wg-bench/issues/5) |
 | AMD Ryzen 9 5950X*               | Arch Linux / 6.7.6-arch1-1       | 3.28 Gbits/sec | [test 1 firewalld: running ; irqbalance: running](https://github.com/teelfox/wg-bench/blob/081895035183bdd03ee063f08efa307ecf7c0762/teelfox_ryzen_9_5950X.md) |
+| Intel Atlas Canyon / Intel Celeron N5105* | Alpine Linux / 6.6.28            | 3.44 Gbits/sec | |
 | AMD Ryzen 9 5950X*               | Arch Linux / 6.7.6-arch1-1       | 3.55 Gbits/sec | [test 5 firewalld: stopped ; irqbalance: running ; nftables](https://github.com/teelfox/wg-bench/blob/081895035183bdd03ee063f08efa307ecf7c0762/teelfox_ryzen_9_5950X.md) |
 | Mac Mini (2020) / Apple M1*      | AsahiLinux / 6.5.0 / -R          | 3.62 Gbits/sec | |
 | AMD Ryzen 9 5950X*               | Arch Linux / 6.7.6-arch1-1       | 3.63 Gbits/sec | [test 2 firewalld: running ; irqbalance: stopped](https://github.com/teelfox/wg-bench/blob/081895035183bdd03ee063f08efa307ecf7c0762/teelfox_ryzen_9_5950X.md) ; needs retesting [#1](https://github.com/teelfox/wg-bench/issues/1) |
