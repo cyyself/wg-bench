@@ -124,7 +124,7 @@ If you have more results to show, PR is welcomed.
 
 We recommend also testing with `-R` by `sudo ./benchmark.sh -R` before submitting the result.
 
-If you see quite a difference in speed which might happen on BIG.little CPU architecture (such as Apple M1), please note this in your commit.
+If you see quite a difference in speed which might happen on big.LITTLE CPU architecture (such as Apple M1), please note this in your commit.
 
 ## About Result
 
