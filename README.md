@@ -73,6 +73,7 @@ sh <(wget -O - https://raw.githubusercontent.com/cyyself/wg-bench/master/openwrt
 | Loongson 3A4000                  | Debian bookworm / 6.1.76         | 799 Mbits/sec  | |
 | GL-iNet MT6000 / MT7986          | OpenWRT Snapshot / 6.1.78        | 807 Mbits/sec  | |
 | TP-Link XDR 6088 / MT7986        | OpenWRT 23.05.0 / 5.15.134       | 818 Mbits/sec  | |
+| Redmi AX6000 / MT7986A           | OpenWRT 23.05.3 / 5.15.150       | 820 Mbits/sec  | |
 | Raspberry Pi 4 / BCM2711*        | OpenWRT 23.05.2 / 5.15.137       | 881 Mbits/sec  | CPU at 1.5GHz |
 | Asus TUF-AX4200 / MT7986AV       | OpenWRT Snapshot / 6.1.78        | 936 Mbits/sec  | |
 | JDCloud RE-CP-03 / MT7986A*      | OpenWRT Snapshot / 6.1.82        | 946 Mbits/sec  | with firewall disabled |
