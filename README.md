@@ -81,6 +81,7 @@ sh <(wget -O - https://raw.githubusercontent.com/cyyself/wg-bench/master/openwrt
 | JDCloud RE-CP-03 / MT7986A*      | OpenWRT Snapshot / 6.1.82        | 946 Mbits/sec  | with firewall disabled |
 | Raspberry Pi 4 / BCM2711*        | OpenWRT 23.05.2 / 5.15.137       | 1.02 Gbits/sec | CPU at 2.0GHz |
 | HP T430 / Intel Celeron N4000    | Kiddin OpenWRT / 5.15.127        | 1.06 Gbits/sec | |
+| VMware Edge 620 / Intel Atom C3558 | Debian bookworm / 6.6.13-bpo   | 1.17 Gbits/sec | |
 | Intel Atom C3558                 | Debian bookworm / 6.1.0-13       | 1.26 Gbits/sec | |
 | Banana Pi BPI-R4 / MT7988A       | OpenWRT Snapshot / 6.1.77        | 1.27 Gbits/sec | |
 | iEi Puzzle-M902 / Marvell CN9130 | OpenWRT 23.05.03 / 5.15.150      | 1.43 Gbits/sec | |
