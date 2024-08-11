@@ -104,6 +104,7 @@ sh <(wget -O - https://raw.githubusercontent.com/cyyself/wg-bench/master/openwrt
 | Intel Atom P5342                 | Debian bookworm / 6.1.0-16       | 2.89 Gbits/sec | |
 | Intel Xeon E3-1265L v3           | Debian trixie / 6.6.13           | 3.03 Gbits/sec | |
 | Raspberry Pi 5 / BCM2712*        | Raspberry Pi OS / 6.1.68         | 3.08 Gbits/sec | Reconfigure Kernel [#5](https://github.com/cyyself/wg-bench/issues/5) |
+| Pixel 7a / Google Tensor G2      | Debian trixie / 6.1.2            | 3.14 Gbits/sec | 2 core pKVM |
 | AMD Ryzen 9 5950X*               | Arch Linux / 6.7.6-arch1-1       | 3.28 Gbits/sec | [test 1 firewalld: running ; irqbalance: running](https://github.com/teelfox/wg-bench/blob/081895035183bdd03ee063f08efa307ecf7c0762/teelfox_ryzen_9_5950X.md) |
 | Intel Atlas Canyon / Intel Celeron N5105* | Alpine Linux / 6.6.28            | 3.44 Gbits/sec | |
 | AMD Ryzen 9 5950X*               | Arch Linux / 6.7.6-arch1-1       | 3.55 Gbits/sec | [test 5 firewalld: stopped ; irqbalance: running ; nftables](https://github.com/teelfox/wg-bench/blob/081895035183bdd03ee063f08efa307ecf7c0762/teelfox_ryzen_9_5950X.md) |
@@ -120,12 +121,14 @@ sh <(wget -O - https://raw.githubusercontent.com/cyyself/wg-bench/master/openwrt
 | AMD Ryzen 5 PRO 5650GE           | Linux pve / 6.2.16               | 5.29 Gbits/sec | |
 | AMD Ryzen 9 7950X                | Ubuntu 22.04.3 / 5.15.0          | 5.64 Gbits/sec | |
 | Intel Core i5-8365U              | Debian bullseye / 5.10.0-24      | 5.64 Gbits/sec | |
+| Intel Core i5-8265U              | Arch Linux / 6.10.1              | 6.00 Gbits/sec | |
 | AMD Ryzen 9 7945HX               | Debian bookworm / 6.1.0          | 6.83 Gbits/sec | |
 | Intel Core i9 13900K             | Debian trixie / 6.5.13           | 7.53 Gbits/sec | |
 | AMD Ryzen 7 7840HS               | Arch Linux / 6.8.7-2-cachyos-bore-lto_v4 | 8.11 Gbits/sec| CachyOS Kernel|
 | Intel Core i9 12900KS            | Ubuntu 22.04 / 6.2.0-32          | 8.30 Gbits/sec | |
 | MacBook Pro 2023 / Apple M2 Max* | Debian bookworm / 6.7.4-1 | 9.30 Gbits/sec | 4 core VZ VM |
 | MacBook Pro 2023 / Apple M3 Max* | Ubuntu 22.04 / 5.15.0-91 | 9.39 Gbits/sec | 4 core VM (Parallels Desktop 19.3.0) |
+| Intel Core i9 13905H*            | Arch Linux / 6.10.3              | 10.5 Gbits/sec | |
 
 If you have more results to show, PR is welcomed.
 
