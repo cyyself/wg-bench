@@ -104,6 +104,7 @@ sh <(wget -O - https://raw.githubusercontent.com/cyyself/wg-bench/master/openwrt
 | Intel Atom P5342                 | Debian bookworm / 6.1.0-16       | 2.89 Gbits/sec | |
 | Intel Xeon E3-1265L v3           | Debian trixie / 6.6.13           | 3.03 Gbits/sec | |
 | Raspberry Pi 5 / BCM2712*        | Raspberry Pi OS / 6.1.68         | 3.08 Gbits/sec | Reconfigure Kernel [#5](https://github.com/cyyself/wg-bench/issues/5) |
+| Pixel 7a / Google Tensor G2      | Debian trixie / 6.1.2            | 3.14 Gbits/sec | 2 core pKVM |
 | AMD Ryzen 9 5950X*               | Arch Linux / 6.7.6-arch1-1       | 3.28 Gbits/sec | [test 1 firewalld: running ; irqbalance: running](https://github.com/teelfox/wg-bench/blob/081895035183bdd03ee063f08efa307ecf7c0762/teelfox_ryzen_9_5950X.md) |
 | Intel Atlas Canyon / Intel Celeron N5105* | Alpine Linux / 6.6.28            | 3.44 Gbits/sec | |
 | AMD Ryzen 9 5950X*               | Arch Linux / 6.7.6-arch1-1       | 3.55 Gbits/sec | [test 5 firewalld: stopped ; irqbalance: running ; nftables](https://github.com/teelfox/wg-bench/blob/081895035183bdd03ee063f08efa307ecf7c0762/teelfox_ryzen_9_5950X.md) |
