@@ -45,6 +45,7 @@ sh <(wget -O - https://raw.githubusercontent.com/cyyself/wg-bench/master/openwrt
 | Xiaomi Mi Router R3D / IPQ8064   | OpenWrt Snapshot / 6.1.77       | 214 Mbits/sec  | |
 | NanoPi R2S / RK3328              | OpenWrt 23.05.2 / 5.15.137       | 234 Mbits/sec  | |
 | Intel Atom E3825                 | OpenWrt 23.05.2 / 5.15.137       | 259 Mbits/sec  | |
+| UFI001C (UFI003) / MSM8916       | OpenStick / [5.15.0](https://github.com/OpenStick/linux) | 260 Mbits/sec | |
 | Netgear R7800 / IPQ8065          | OpenWrt 23.05.2 / 5.15.137       | 291 Mbits/sec  | |
 | Phytium Pi (V2.2) / E2000Q FT310 (1.5GHz) | deepin V23 Beta3 / 5.10.209 | 358 Mbits/sec | With FT664 "big" cores disabled |
 | Linksys WRT1900ACv2  / 88F6820   | OpenWrt 23.05.2 / 5.15.137       | 361 Mbits/sec  | |
