@@ -25,7 +25,7 @@ fi
 printf "\033[32;1m\nPackages:\033[0m\n"
 
 if opkg list-installed | grep -q wireguard-tools; then
-    echo "Wireguard already installed"
+    echo "WireGuard already installed"
 else
     echo "Installed wg..."
     opkg install wireguard-tools
@@ -59,7 +59,7 @@ else
     opkg install psmisc
 fi
 
-printf "\033[32;1m\nRouters details:\033[0m\n"
+printf "\033[32;1m\nRouter details:\033[0m\n"
 ubus call system board
 
 setup() {
@@ -83,7 +83,7 @@ setup() {
     wg set ${NIC}-wg peer $(wg pubkey < ns-privkey) allowed-ips ${NS_WG_IP}/32 endpoint ${NS_VETH_IP}:${NS_PORT}
     ip link set ${NIC}-wg up
 
-    # Setup WG for netns
+    # Set up WG for netns
     ip netns exec ${NETNS} ip link add ${NIC}-wg type wireguard
     ip netns exec ${NETNS} wg set ${NIC}-wg listen-port ${NS_PORT} private-key $PWD/ns-privkey
     ip netns exec ${NETNS} ip addr add ${NS_WG_IP}/32 dev ${NIC}-wg peer ${HOST_WG_IP}
