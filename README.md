@@ -1,6 +1,6 @@
 # WireGuard Benchmark
 
-Test WireGuard performance using netns and iperf3.
+Test WireGuard performance using `netns` and `iperf3`.
 
 ## How to use
 
@@ -144,4 +144,4 @@ This program only benchmarks your CPU and Kernel network stack, the end-to-end p
 
 ## Discussion
 
-[A Wireguard comparison DB on OpenWRT forum](https://forum.openwrt.org/t/a-wireguard-comparison-db/187586)
+[A WireGuard comparison DB on OpenWRT forum](https://forum.openwrt.org/t/a-wireguard-comparison-db/187586)
