@@ -124,6 +124,7 @@ sh <(wget -O - https://raw.githubusercontent.com/cyyself/wg-bench/master/openwrt
 | AMD Ryzen 5 PRO 5650GE           | Linux pve / 6.2.16               | 5.29 Gbits/sec | |
 | AMD Ryzen 9 7950X                | Ubuntu 22.04.3 / 5.15.0          | 5.64 Gbits/sec | |
 | Intel Core i5-8365U              | Debian bullseye / 5.10.0-24      | 5.64 Gbits/sec | |
+| Intel Core i5-13420H             | Alpine Linux / 6.6.56            | 5.90 Gbits/sec | |
 | Intel Core i5-8265U              | Arch Linux / 6.10.1              | 6.00 Gbits/sec | |
 | AMD Ryzen 9 7945HX               | Debian bookworm / 6.1.0          | 6.83 Gbits/sec | |
 | Intel Core i9 13900K             | Debian trixie / 6.5.13           | 7.53 Gbits/sec | |
