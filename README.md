@@ -103,7 +103,7 @@ sh <(wget -O - https://raw.githubusercontent.com/cyyself/wg-bench/master/openwrt
 | Intel Xeon Gold 6330             | Linux pve / 5.15.108             | 2.54 Gbits/sec | |
 | Raspberry Pi 5 / BCM2712         | Raspberry Pi OS / 6.1.68         | 2.60 Gbits/sec | |
 | AMD EPYC 7302                    | Debian bookworm / 6.1.55         | 2.69 Gbits/sec | |
-| Firewalla Gold Pro / Intel N97   | Ubuntu 22.04.4 LTS               | 2.72 Gbits/sec | | 
+| Firewalla Gold Pro / Intel N97   | Ubuntu 22.04.4 LTS               | 2.93 Gbits/sec | | 
 | Intel CC150                      | Linux pve / 6.5.13               | 2.78 Gbits/sec | |
 | Intel Atom P5342                 | Debian bookworm / 6.1.0-16       | 2.89 Gbits/sec | |
 | Intel Xeon E3-1265L v3           | Debian trixie / 6.6.13           | 3.03 Gbits/sec | |
