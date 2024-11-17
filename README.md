@@ -69,6 +69,7 @@ sh <(wget -O - https://raw.githubusercontent.com/cyyself/wg-bench/master/openwrt
 | Raspberry Pi Model 3B / BCM2837  | OpenWRT 23.05.2 / 5.15.137       | 522 Mbits/sec  | |
 | Phicomm N1 / S905D               | ophub-openwrt / 6.1.66           | 537 Mbits/sec  | |
 | Intel Celeron(R) J1800           | Ubuntu 22.04.3 / 5.15.0          | 551 Mbits/sec  | |
+| Dell Wyse 3040 / Intel Atom x5-Z8350 | OpenWRT 23.05.5 / 5.15.167   | 581 Mbits/sec  | All cores run on "performance" cpufreq governor |
 | Redmi AX6 / IPQ8071A             | OpenWRT Snapshot / 6.1.77        | 603 Mbits/sec  | |
 | Radxa E20C / RK3528              | iStoreOS / 5.10.201              | 620 Mbits/sec  | |
 | Raspberry Pi 4 / BCM2711*        | archlinux / 6.1.61(armv7l)       | 665 Mbits/sec  | |
