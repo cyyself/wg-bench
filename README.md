@@ -145,6 +145,7 @@ sh <(wget -O - https://raw.githubusercontent.com/cyyself/wg-bench/master/openwrt
 | MacBook Pro 2023 / Apple M2 Max* | Debian bookworm / 6.7.4-1 | 9.30 Gbits/sec | 4 core VZ VM |
 | MacBook Pro 2023 / Apple M3 Max* | Ubuntu 22.04 / 5.15.0-91 | 9.39 Gbits/sec | 4 core VM (Parallels Desktop 19.3.0) |
 | Intel Core i9 13905H*            | Arch Linux / 6.10.3              | 10.5 Gbits/sec | |
+| MacBook Pro 2024 / Apple M4 Pro  | Debian sid / 6.11.2              | 10.5 Gbits/sec | 4 core VM (VMware Fusion 13.6.2) |
 
 If you have more results to show, PR is welcomed.
 
