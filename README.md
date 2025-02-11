@@ -32,6 +32,8 @@ sh <(wget -O - https://raw.githubusercontent.com/cyyself/wg-bench/master/openwrt
 | TP-Link WR841N v9 / QCA9533       | OpenWrt 22.03.6 / 5.10.201       | 19.2 Mbits/sec | |
 | AVM FRITZ!Box 3490 / VRX288      | OpenWrt SNAPSHOT / 3.17.1        | 26.1 Mbits/sec | |
 | TP-Link Archer C7 v2 / QCA9558   | OpenWrt 23.05.5 / 5.15.167       | 35.2 Mbits/sec | | 
+| Lemote Fuloong / Loongson 2F     | Gentoo / 6.1.74 CONFIG_PREEMPT   | 38.1 Mbits/sec | Highest of 10 runs |
+| Lemote Fuloong / Loongson 2F     | Gentoo / 6.1.74 PREEMPT_NONE     | 47.2 Mbits/sec | Highest of 10 runs |
 | GL-iNet MT1300 / MT7621A         | OpenWrt 23.05.2 / 5.15.137       | 82.5 Mbits/sec | |
 | D-Team Newifi D2 / MT7621AT      | OpenWrt 23.05.2 / 5.15.137       | 93 Mbits/sec   | |
 | Zyxel WSM20 / MT7621AT           | OpenWrt 23.05.2 / 5.15.137       | 98.3 Mbits/sec | |
@@ -49,8 +51,10 @@ sh <(wget -O - https://raw.githubusercontent.com/cyyself/wg-bench/master/openwrt
 | Intel Atom E3825                 | OpenWrt 23.05.2 / 5.15.137       | 259 Mbits/sec  | |
 | UFI001C (UFI003) / MSM8916       | OpenStick / [5.15.0](https://github.com/OpenStick/linux) | 260 Mbits/sec | |
 | Netgear R7800 / IPQ8065          | OpenWrt 23.05.2 / 5.15.137       | 291 Mbits/sec  | |
+| Lemote A1310 / Loongson 3B1500   | AOSC OS 12.0.4 / 6.12.13-aosc-lts | 315 Mbits/sec | CPU reversion 3B1500G, dual-channel memory @ 1066MHz, with firmware PMON-A1310-1.1.0-8cores-official.bin, highest of 10 runs |
 | NanoPi R5S / RK3568              | OpenWrt 24.10.0-rc4 / 6.12.6     | 318 Mbits/sec  | |
 | Radxa Orion O6 / Cix P1*         | Debian sid / 6.12.9              | 320 Mbits/sec | With all cores enabled |
+| Lemote A1601 / Loongson 3A2000   | AOSC OS 12.0.4 / 6.12.13-aosc-lts | 346 Mbits/sec | Highest of 5 runs |
 | Phytium Pi (V2.2) / E2000Q FT310 (1.5GHz) | deepin V23 Beta3 / 5.10.209 | 358 Mbits/sec | With FT664 "big" cores disabled |
 | Linksys WRT1900ACv2  / 88F6820   | OpenWrt 23.05.2 / 5.15.137       | 361 Mbits/sec  | |
 | Linksys E8450 (UBI) / MT7622BV   | OpenWrt 23.05.5 / 5.15.167       | 368 Mbits/sec  | |
