@@ -116,6 +116,7 @@ sh <(wget -O - https://raw.githubusercontent.com/cyyself/wg-bench/master/openwrt
 | Intel Celeron N5105*             | Debian bookworm / 6.1.38         | 2.46 Gbits/sec | |
 | Intel Xeon Gold 6330             | Linux pve / 5.15.108             | 2.54 Gbits/sec | |
 | Raspberry Pi 5 / BCM2712         | Raspberry Pi OS / 6.1.68         | 2.60 Gbits/sec | |
+| Huawei Qingyun W510 / HiSilicon Kunpeng 920 3211k | Debian bookworm / 6.1.124 | 2.67 Gbits/sec | With 32-core unlock mod |
 | AMD EPYC 7302                    | Debian bookworm / 6.1.55         | 2.69 Gbits/sec | |
 | Intel CC150                      | Linux pve / 6.5.13               | 2.78 Gbits/sec | |
 | Intel Atom P5342                 | Debian bookworm / 6.1.0-16       | 2.89 Gbits/sec | |
