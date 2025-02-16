@@ -96,6 +96,7 @@ sh <(wget -O - https://raw.githubusercontent.com/cyyself/wg-bench/master/openwrt
 | Asus TUF-AX4200 / MT7986AV       | OpenWRT Snapshot / 6.1.78        | 936 Mbits/sec  | |
 | JDCloud RE-CP-03 / MT7986A*      | OpenWRT Snapshot / 6.1.82        | 946 Mbits/sec  | with firewall disabled |
 | Raspberry Pi 4 / BCM2711*        | OpenWRT 23.05.2 / 5.15.137       | 1.02 Gbits/sec | CPU at 2.0GHz |
+| FriendlyELEC NanoPC-T6 / Rockchip RK3588 (A53) | Debian trixie / 6.12.12-1 | 1.03 Gbits/sec | with A76 cores disabled |
 | HP T430 / Intel Celeron N4000    | Kiddin OpenWRT / 5.15.127        | 1.06 Gbits/sec | |
 | VMware Edge 620 / Intel Atom C3558 | Debian bookworm / 6.6.13-bpo   | 1.17 Gbits/sec | |
 | HUAWEI SDIv3 / Kunpeng 920       | Debian trixie / 6.11.7           | 1.21 Gbits/sec | |
@@ -124,6 +125,7 @@ sh <(wget -O - https://raw.githubusercontent.com/cyyself/wg-bench/master/openwrt
 | Firewalla Gold Pro / Intel N97   | Ubuntu 22.04.4 LTS / 6.5.0-25    | 2.95 Gbits/sec | |
 | Huawei Qingyun W510 / HiSilicon Kunpeng 920 2426sk | Debian bookworm / 6.1.76 | 3.01 Gbits/sec | Highest of 5 runs |
 | Intel Xeon E3-1265L v3           | Debian trixie / 6.6.13           | 3.03 Gbits/sec | |
+| FriendlyELEC NanoPC-T6 / Rockchip RK3588 (A76) | Debian trixie / 6.12.12-1 | 3.06 Gbits/sec | with A55 cores disabled |
 | Raspberry Pi 5 / BCM2712*        | Raspberry Pi OS / 6.1.68         | 3.08 Gbits/sec | Reconfigure Kernel [#5](https://github.com/cyyself/wg-bench/issues/5) |
 | Pixel 7a / Google Tensor G2      | Debian trixie / 6.1.2            | 3.14 Gbits/sec | 2 core pKVM |
 | AMD Ryzen 9 5950X*               | Arch Linux / 6.7.6-arch1-1       | 3.28 Gbits/sec | [test 1 firewalld: running ; irqbalance: running](https://github.com/teelfox/wg-bench/blob/081895035183bdd03ee063f08efa307ecf7c0762/teelfox_ryzen_9_5950X.md) |
