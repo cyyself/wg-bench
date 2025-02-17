@@ -143,6 +143,7 @@ sh <(wget -O - https://raw.githubusercontent.com/cyyself/wg-bench/master/openwrt
 | Intel N100                       | Debian bookworm / 6.6.13         | 4.65 Gbits/sec | CPU at 12W TDP |
 | Intel Core i7-8565U              | Debian trixie / 6.7.6 xanmod     | 4.93 Gbits/sec | Xanmod Kernel |
 | AMD Ryzen 5 PRO 5650GE           | Linux pve / 6.2.16               | 5.29 Gbits/sec | |
+| Surface Pro 11 with 5G / Snapdragon X Elite X1E-80-100 | Arch Linux ARM / 6.13.0 | 5.57 Gbits/sec | disabled 4 cores, other 8 cores running at 3.42GHz |
 | AMD Ryzen 9 7950X                | Ubuntu 22.04.3 / 5.15.0          | 5.64 Gbits/sec | |
 | Intel Core i5-8365U              | Debian bullseye / 5.10.0-24      | 5.64 Gbits/sec | |
 | Intel Core i5-13420H             | Alpine Linux / 6.6.56            | 5.90 Gbits/sec | |
