@@ -32,6 +32,7 @@ sh <(wget -O - https://raw.githubusercontent.com/cyyself/wg-bench/master/openwrt
 | TP-Link WR841N v9 / QCA9533       | OpenWrt 22.03.6 / 5.10.201       | 19.2 Mbits/sec | |
 | AVM FRITZ!Box 3490 / VRX288      | OpenWrt SNAPSHOT / 3.17.1        | 26.1 Mbits/sec | |
 | TP-Link Archer C7 v2 / QCA9558   | OpenWrt 23.05.5 / 5.15.167       | 35.2 Mbits/sec | | 
+| Ubiquiti UniFi AC LR / QCA956X   | OpenWrt 24.10.0 / 6.6.73         | 35.6 Mbits/sec | |
 | Lemote Fuloong / Loongson 2F     | Gentoo / 6.1.74 CONFIG_PREEMPT   | 38.1 Mbits/sec | Highest of 10 runs |
 | Lemote Fuloong / Loongson 2F     | Gentoo / 6.1.74 PREEMPT_NONE     | 47.2 Mbits/sec | Highest of 10 runs |
 | GL-iNet MT1300 / MT7621A         | OpenWrt 23.05.2 / 5.15.137       | 82.5 Mbits/sec | |
