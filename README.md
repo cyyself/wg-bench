@@ -70,6 +70,7 @@ sh <(wget -O - https://raw.githubusercontent.com/cyyself/wg-bench/master/openwrt
 | Netgear WAX206 / MT7622          | OpenWRT 23.05.2 / 5.15.137       | 381 Mbits/sec  | |
 | Redmi AX6S / MT7622              | OpenWRT 23.05.2 / 5.15.137       | 391 Mbits/sec  | |
 | StarFive VisionFive 2 / JH7110   | Debian trixie / 5.15.0           | 402 Mbits/sec  | |
+| GL.iNet GL-AXT1800 / IPQ6000     | OpenWRT SNAPSHOT / 6.6.84        | 414 Mbits/sec  | arm64 system by VIKINGYFY/immortalwrt, bypass os-release NAME check |
 | Lemote A1801 / Loongson 3A3000-LP | Debian bookworm / 5.10.209      | 423 Mbits/sec  | CPU reversion variant H2, clocked at 1.45GHz |
 | Linksys WRT3200ACM / 88F6820     | OpenWRT 23.05.2 / 5.15.137       | 426 Mbits/sec  | |
 | Phytium Pi (V2.2) / E2000Q FT664 (1.8GHz) | deepin V23 Beta3 / 5.10.209 | 437 Mbits/sec  | With FT310 "little" cores disabled |
