@@ -13,7 +13,7 @@ NS_WG_IP="169.254.200.2"
 HOST_PORT="11001"
 NS_PORT="11002"
 
-if [ "$NAME" != "OpenWrt" ]; then
+if [ "$NAME" != "OpenWrt" ] && [ "$NAME" != "ImmortalWrt" ]; then
     echo "This is not OpenWrt. Exit"
     exit 1
 fi
