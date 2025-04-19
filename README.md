@@ -49,6 +49,7 @@ sh <(wget -O - https://raw.githubusercontent.com/cyyself/wg-bench/master/openwrt
 | P&W R619AC 128M / IPQ4019     | OpenWrt 23.05.4 / 5.15.164       | 201 Mbits/sec  | Overclocked 896 MHz |
 | Xiaomi Mi Router R3D / IPQ8064   | OpenWrt Snapshot / 6.1.77       | 214 Mbits/sec  | |
 | NanoPi R2S / RK3328              | OpenWrt 23.05.2 / 5.15.137       | 234 Mbits/sec  | |
+| Rock Cubie A5E / A527            | Armbian 25.5.0 / 6.14.0          | 245 Mbits/sec  | |
 | Intel Atom E3825                 | OpenWrt 23.05.2 / 5.15.137       | 259 Mbits/sec  | |
 | UFI001C (UFI003) / MSM8916       | OpenStick / [5.15.0](https://github.com/OpenStick/linux) | 260 Mbits/sec | |
 | Ubiquiti EdgeRouter 4 / Cavium CN7130  | OpenWrt 24.10.0 / 6.6.73   | 271 Mbits/sec  | |
