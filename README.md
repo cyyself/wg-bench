@@ -82,11 +82,13 @@ sh <(wget -O - https://raw.githubusercontent.com/cyyself/wg-bench/master/openwrt
 | Sipeed Lichee Pi 4A / TH1520     | RevyOS / 6.6.4                   | 451 Mbits/sec  | |
 | Raspberry Pi Model 3B / BCM2837  | OpenWRT 23.05.2 / 5.15.137       | 522 Mbits/sec  | |
 | Phicomm N1 / S905D               | ophub-openwrt / 6.1.66           | 537 Mbits/sec  | |
+| FriendlyELEC NanoPi R3S / RK3566 | OpenWRT 24.10.1 / 6.6.86         | 544 Mbits/sec  | Default OpenWRT firewall settings |
 | Intel Celeron(R) J1800           | Ubuntu 22.04.3 / 5.15.0          | 551 Mbits/sec  | |
 | Dell Wyse 3040 / Intel Atom x5-Z8350 | OpenWRT 23.05.5 / 5.15.167   | 581 Mbits/sec  | All cores run on "performance" cpufreq governor |
 | Redmi AX6 / IPQ8071A             | OpenWRT Snapshot / 6.1.77        | 603 Mbits/sec  | |
 | Radxa E20C / RK3528              | iStoreOS / 5.10.201              | 620 Mbits/sec  | |
 | Raspberry Pi 4 / BCM2711*        | archlinux / 6.1.61(armv7l)       | 665 Mbits/sec  | |
+| FriendlyELEC NanoPi R3S / RK3566 | OpenWRT 24.10.1 / 6.6.86         | 695 Mbits/sec  | Firewall disabled |
 | NanoPi R6C / RK3588S             | OpenWrt 24.10.0-rc5 / 6.6.69     | 728 Mbits/sec  | |
 | Banana Pi BPI-R3 Mini / MT7986A  | OpenWRT 24.10.0-rc5 / 6.6.69     | 730 Mbits/sec  | |
 | Mercusys MR90X v1 / MT7986       | OpenWRT 23.05.2 / 5.15.137       | 754 Mbits/sec  | |
