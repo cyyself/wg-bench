@@ -29,9 +29,9 @@ sh <(wget -O - https://raw.githubusercontent.com/cyyself/wg-bench/master/openwrt
 | Raspberry Pi Model B / BCM2835   | OpenWrt 23.05.2 / 5.15.137       | 16.1 Mbits/sec | |
 | Buffalo WCR-1166DS / MT7628AN    | OpenWrt 23.05.2 / 5.15.137       | 18.3 Mbits/sec | |
 | GL-iNet MT300N V1 / MT7620N      | OpenWrt 23.05.2 / 5.15.137       | 19.2 Mbits/sec | |
-| TP-Link WR841N v9 / QCA9533       | OpenWrt 22.03.6 / 5.10.201       | 19.2 Mbits/sec | |
+| TP-Link WR841N v9 / QCA9533      | OpenWrt 22.03.6 / 5.10.201       | 19.2 Mbits/sec | |
 | AVM FRITZ!Box 3490 / VRX288      | OpenWrt SNAPSHOT / 3.17.1        | 26.1 Mbits/sec | |
-| TP-Link Archer C7 v2 / QCA9558   | OpenWrt 23.05.5 / 5.15.167       | 35.2 Mbits/sec | | 
+| TP-Link Archer C7 v2 / QCA9558   | OpenWrt 23.05.5 / 5.15.167       | 35.2 Mbits/sec | |
 | Ubiquiti UniFi AC LR / QCA956X   | OpenWrt 24.10.0 / 6.6.73         | 35.6 Mbits/sec | |
 | Lemote Fuloong / Loongson 2F     | Gentoo / 6.1.74 CONFIG_PREEMPT   | 38.1 Mbits/sec | Highest of 10 runs |
 | Lemote Fuloong / Loongson 2F     | Gentoo / 6.1.74 PREEMPT_NONE     | 47.2 Mbits/sec | Highest of 10 runs |
@@ -50,6 +50,7 @@ sh <(wget -O - https://raw.githubusercontent.com/cyyself/wg-bench/master/openwrt
 | Xiaomi Mi Router R3D / IPQ8064   | OpenWrt Snapshot / 6.1.77       | 214 Mbits/sec  | |
 | NanoPi R2S / RK3328              | OpenWrt 23.05.2 / 5.15.137       | 234 Mbits/sec  | |
 | Rock Cubie A5E / A527            | Armbian 25.5.0 / 6.14.0          | 245 Mbits/sec  | |
+| TP-Link Archer C2600 v1.x / IPQ8064 | OpenWrt 23.05.4 / 5.15.162    | 250 Mbits/sec  | |
 | Intel Atom E3825                 | OpenWrt 23.05.2 / 5.15.137       | 259 Mbits/sec  | |
 | UFI001C (UFI003) / MSM8916       | OpenStick / [5.15.0](https://github.com/OpenStick/linux) | 260 Mbits/sec | |
 | Cisco/Viptela vEdge 1000 / Cavium CN6130  | OpenWrt 24.10.1 / 6.6.86   | 260 Mbits/sec  | |
