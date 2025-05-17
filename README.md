@@ -35,6 +35,7 @@ sh <(wget -O - https://raw.githubusercontent.com/cyyself/wg-bench/master/openwrt
 | Ubiquiti UniFi AC LR / QCA956X   | OpenWrt 24.10.0 / 6.6.73         | 35.6 Mbits/sec | |
 | Lemote Fuloong / Loongson 2F     | Gentoo / 6.1.74 CONFIG_PREEMPT   | 38.1 Mbits/sec | Highest of 10 runs |
 | Lemote Fuloong / Loongson 2F     | Gentoo / 6.1.74 PREEMPT_NONE     | 47.2 Mbits/sec | Highest of 10 runs |
+|Ubiquiti EdgeRouter Lite / Octeon CN5020 | OpenWrt 24.10.1 / 6.6.86  | 48.5 Mbits/sec | |
 | GL-iNet MT1300 / MT7621A         | OpenWrt 23.05.2 / 5.15.137       | 82.5 Mbits/sec | |
 | D-Team Newifi D2 / MT7621AT      | OpenWrt 23.05.2 / 5.15.137       | 93 Mbits/sec   | |
 | Zyxel WSM20 / MT7621AT           | OpenWrt 23.05.2 / 5.15.137       | 98.3 Mbits/sec | |
