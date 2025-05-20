@@ -63,6 +63,7 @@ sh <(wget -O - https://raw.githubusercontent.com/cyyself/wg-bench/master/openwrt
 | NanoPi R5S / RK3568              | OpenWrt 24.10.0-rc4 / 6.12.6     | 318 Mbits/sec  | |
 | Radxa Orion O6 / Cix P1*         | Debian sid / 6.12.9              | 320 Mbits/sec | With all cores enabled |
 | Lemote A1601 / Loongson 3A2000   | AOSC OS 12.0.4 / 6.12.13-aosc-lts | 346 Mbits/sec | Highest of 5 runs |
+| Fortinet FortiGate 50E / 88F6820 | OpenWrt 24.10.1 / 6.6.86         | 347 Mbits/sec  | |
 | Phytium Pi (V2.2) / E2000Q FT310 (1.5GHz) | deepin V23 Beta3 / 5.10.209 | 358 Mbits/sec | With FT664 "big" cores disabled |
 | Linksys WRT1900ACv2  / 88F6820   | OpenWrt 23.05.2 / 5.15.137       | 361 Mbits/sec  | |
 | Linksys E8450 (UBI) / MT7622BV   | OpenWrt 23.05.5 / 5.15.167       | 368 Mbits/sec  | |
