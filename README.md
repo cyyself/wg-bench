@@ -66,6 +66,7 @@ sh <(wget -O - https://raw.githubusercontent.com/cyyself/wg-bench/master/openwrt
 | Fortinet FortiGate 50E / 88F6820 | OpenWrt 24.10.1 / 6.6.86         | 347 Mbits/sec  | |
 | Phytium Pi (V2.2) / E2000Q FT310 (1.5GHz) | deepin V23 Beta3 / 5.10.209 | 358 Mbits/sec | With FT664 "big" cores disabled |
 | Linksys WRT1900ACv2  / 88F6820   | OpenWrt 23.05.2 / 5.15.137       | 361 Mbits/sec  | |
+| GL.iNet GL-MT2500 (Brume 2)      | OpenWrt 21.02-SNAPSHOT           | 362 Mbits/sec  | |
 | Linksys E8450 (UBI) / MT7622BV   | OpenWrt 23.05.5 / 5.15.167       | 368 Mbits/sec  | |
 | CMCC RAX3000M / MT7981           | OpenWRT 23.05.2 / 5.15.137       | 369 Mbits/sec  | |
 | 360 T7 / MT7981                  | OpenWRT 23.05.0 / 5.15.134       | 369 Mbits/sec  | |
