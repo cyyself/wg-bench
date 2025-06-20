@@ -88,6 +88,7 @@ sh <(wget -O - https://raw.githubusercontent.com/cyyself/wg-bench/master/openwrt
 | Sipeed Lichee Pi 4A / TH1520     | RevyOS / 6.6.4                   | 451 Mbits/sec  | |
 | Raspberry Pi Model 3B / BCM2837  | OpenWRT 23.05.2 / 5.15.137       | 522 Mbits/sec  | |
 | Phicomm N1 / S905D               | ophub-openwrt / 6.1.66           | 537 Mbits/sec  | |
+| FriendlyELECT NanoPi R5C / RK3568B2 | OpenWRT / 24.10.1             | 537 Mbits/sec  | |
 | FriendlyELEC NanoPi R3S / RK3566 | OpenWRT 24.10.1 / 6.6.86         | 544 Mbits/sec  | Default OpenWRT firewall settings |
 | Intel Celeron(R) J1800           | Ubuntu 22.04.3 / 5.15.0          | 551 Mbits/sec  | |
 | Dell Wyse 3040 / Intel Atom x5-Z8350 | OpenWRT 23.05.5 / 5.15.167   | 581 Mbits/sec  | All cores run on "performance" cpufreq governor |
