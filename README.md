@@ -30,6 +30,7 @@ sh <(wget -O - https://raw.githubusercontent.com/cyyself/wg-bench/master/openwrt
 | Buffalo WCR-1166DS / MT7628AN    | OpenWrt 23.05.2 / 5.15.137       | 18.3 Mbits/sec | |
 | GL-iNet MT300N V1 / MT7620N      | OpenWrt 23.05.2 / 5.15.137       | 19.2 Mbits/sec | |
 | TP-Link WR841N v9 / QCA9533      | OpenWrt 22.03.6 / 5.10.201       | 19.2 Mbits/sec | |
+| GL-iNet MT300N V2 / MT7628AN     | OpenWrt 23.05.5 / 5.15.167       | 19.4 Mbits/sec | |
 | AVM FRITZ!Box 3490 / VRX288      | OpenWrt SNAPSHOT / 3.17.1        | 26.1 Mbits/sec | |
 | TP-Link Archer C7 v2 / QCA9558   | OpenWrt 23.05.5 / 5.15.167       | 35.2 Mbits/sec | |
 | Ubiquiti UniFi AC LR / QCA956X   | OpenWrt 24.10.0 / 6.6.73         | 35.6 Mbits/sec | |
