@@ -28,6 +28,7 @@ sh <(wget -O - https://raw.githubusercontent.com/cyyself/wg-bench/master/openwrt
 | Toshiba Satellite 480CDT / Pentium MMX 233MHz | Alpine Linux 3.18 / 6.2.0-rc7 | 3.2 Mbits/sec   | |
 | Raspberry Pi Model B / BCM2835   | OpenWrt 23.05.2 / 5.15.137       | 16.1 Mbits/sec | |
 | Buffalo WCR-1166DS / MT7628AN    | OpenWrt 23.05.2 / 5.15.137       | 18.3 Mbits/sec | |
+| GL-iNet GL-E750 / QCA9533        | OpenWrt 22.03.4 / 5.10.176       | 19.0 Mbits/sec | |
 | GL-iNet MT300N V1 / MT7620N      | OpenWrt 23.05.2 / 5.15.137       | 19.2 Mbits/sec | |
 | TP-Link WR841N v9 / QCA9533      | OpenWrt 22.03.6 / 5.10.201       | 19.2 Mbits/sec | |
 | GL-iNet MT300N V2 / MT7628AN     | OpenWrt 23.05.5 / 5.15.167       | 19.4 Mbits/sec | |
