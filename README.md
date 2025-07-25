@@ -94,6 +94,7 @@ sh <(wget -O - https://raw.githubusercontent.com/cyyself/wg-bench/master/openwrt
 | FriendlyELECT NanoPi R5C / RK3568B2 | OpenWRT / 24.10.1             | 537 Mbits/sec  | |
 | FriendlyELEC NanoPi R3S / RK3566 | OpenWRT 24.10.1 / 6.6.86         | 544 Mbits/sec  | Default OpenWRT firewall settings |
 | Intel Celeron(R) J1800           | Ubuntu 22.04.3 / 5.15.0          | 551 Mbits/sec  | |
+| Routerich AX3000 / MT7981        | OpenWRT 24.10.2 / 6.6.93         | 559 Mbits/sec  | OC to 2.24GHz |
 | Dell Wyse 3040 / Intel Atom x5-Z8350 | OpenWRT 23.05.5 / 5.15.167   | 581 Mbits/sec  | All cores run on "performance" cpufreq governor |
 | Redmi AX6 / IPQ8071A             | OpenWRT Snapshot / 6.1.77        | 603 Mbits/sec  | |
 | Radxa E20C / RK3528              | iStoreOS / 5.10.201              | 620 Mbits/sec  | |
