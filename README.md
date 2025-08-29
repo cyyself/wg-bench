@@ -51,6 +51,7 @@ sh <(wget -O - https://raw.githubusercontent.com/cyyself/wg-bench/master/openwrt
 | Asus RT-AC68U / BCM5301X         | OpenWRT 24.10.2 / 6.6.93         | 140 Mbit/sec   | Stock 2 core 1.0 GHz |
 | Google WiFi (Gale) / IPQ4019     | OpenWrt 23.05.2 / 5.15.137       | 164 Mbits/sec  | |
 | AVM FRITZ!Box 7530 / ipq40xx     | OpenWrt 23.05.2 / 5.15.137       | 184 Mbits/sec | |
+| Raspberry Pi 2B v1.1 / BCM2836   | Debian bullseye / 6.1.21         | 192 Mbits/sec | |
 | P&W R619AC 128M / IPQ4019     | OpenWrt 23.05.4 / 5.15.164       | 201 Mbits/sec  | Overclocked 896 MHz |
 | Xiaomi Mi Router R3D / IPQ8064   | OpenWrt Snapshot / 6.1.77       | 214 Mbits/sec  | |
 | NanoPi R2S / RK3328              | OpenWrt 23.05.2 / 5.15.137       | 234 Mbits/sec  | |
