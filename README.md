@@ -60,6 +60,7 @@ sh <(wget -O - https://raw.githubusercontent.com/cyyself/wg-bench/master/openwrt
 | Intel Atom E3825                 | OpenWrt 23.05.2 / 5.15.137       | 259 Mbits/sec  | |
 | UFI001C (UFI003) / MSM8916       | OpenStick / [5.15.0](https://github.com/OpenStick/linux) | 260 Mbits/sec | |
 | Cisco/Viptela vEdge 1000 / Cavium CN6130  | OpenWrt 24.10.1 / 6.6.86   | 260 Mbits/sec  | |
+| Bananapi BPI-RV2 (Booting from NAND) / Siflower SF21H8898 | OpenWrt SNAPSHOT / 6.6.114       | 261 Mbits/sec  |  |
 | Ubiquiti EdgeRouter 4 / Cavium CN7130  | OpenWrt 24.10.0 / 6.6.73   | 271 Mbits/sec  | |
 | Netgear R7800 / IPQ8065          | OpenWrt 23.05.2 / 5.15.137       | 291 Mbits/sec  | |
 | Banana Pi BPI-M2 ZERO / Allwinner H2+ | Armbian 25.5.0 / 6.12.23    | 295 Mbits/sec  | |
