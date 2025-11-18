@@ -162,6 +162,7 @@ sh <(wget -O - https://raw.githubusercontent.com/cyyself/wg-bench/master/openwrt
 | AMD Ryzen 9 5950X*               | Arch Linux / 6.7.6-arch1-1       | 3.63 Gbits/sec | [test 2 firewalld: running ; irqbalance: stopped](https://github.com/teelfox/wg-bench/blob/081895035183bdd03ee063f08efa307ecf7c0762/teelfox_ryzen_9_5950X.md) ; needs retesting [#1](https://github.com/teelfox/wg-bench/issues/1) |
 | Intel Pentium(R) Silver N6005    | iStoreOS / 5.10.176              | 3.85 Gbits/sec | |
 | Intel N100                       | Debian bookworm / 6.1.76         | 3.97 Gbits/sec | |
+| Intel N150                       | Ubuntu 25.10 / 6.17.0            | 4.65 Gbits/sec | |
 | AMD Ryzen 9 5950X*               | Arch Linux / 6.7.6-arch1-1       | 4.14 Gbits/sec | [test 4 firewalld: stopped ; irqbalance: stopped](https://github.com/teelfox/wg-bench/blob/081895035183bdd03ee063f08efa307ecf7c0762/teelfox_ryzen_9_5950X.md) |
 | Intel Core i5-4590               | Debian bookworm / 6.1.38         | 4.21 Gbits/sec | |
 | Intel Core i7-8850H              | Debian Trixie / Linux 6.12.35    | 4.29 Gbits/sec | firewalld stopped |
