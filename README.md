@@ -162,7 +162,6 @@ sh <(wget -O - https://raw.githubusercontent.com/cyyself/wg-bench/master/openwrt
 | AMD Ryzen 9 5950X*               | Arch Linux / 6.7.6-arch1-1       | 3.63 Gbits/sec | [test 2 firewalld: running ; irqbalance: stopped](https://github.com/teelfox/wg-bench/blob/081895035183bdd03ee063f08efa307ecf7c0762/teelfox_ryzen_9_5950X.md) ; needs retesting [#1](https://github.com/teelfox/wg-bench/issues/1) |
 | Intel Pentium(R) Silver N6005    | iStoreOS / 5.10.176              | 3.85 Gbits/sec | |
 | Intel N100                       | Debian bookworm / 6.1.76         | 3.97 Gbits/sec | |
-| Intel N150                       | Ubuntu 25.10 / 6.17.0            | 4.65 Gbits/sec | |
 | AMD Ryzen 9 5950X*               | Arch Linux / 6.7.6-arch1-1       | 4.14 Gbits/sec | [test 4 firewalld: stopped ; irqbalance: stopped](https://github.com/teelfox/wg-bench/blob/081895035183bdd03ee063f08efa307ecf7c0762/teelfox_ryzen_9_5950X.md) |
 | Intel Core i5-4590               | Debian bookworm / 6.1.38         | 4.21 Gbits/sec | |
 | Intel Core i7-8850H              | Debian Trixie / Linux 6.12.35    | 4.29 Gbits/sec | firewalld stopped |
@@ -170,6 +169,7 @@ sh <(wget -O - https://raw.githubusercontent.com/cyyself/wg-bench/master/openwrt
 | Intel Core i5-8500               | Ubuntu 22.04.3 / 5.15.0          | 4.49 Gbits/sec | |
 | LENOVO 90CYCTO1WW / Intel Core i5-4590 | ImmortalWrt 24.10.3 / 6.6.104    | 4.57 Gbits/sec | CPU at 3.49GHz |
 | Intel N100                       | Debian bookworm / 6.6.13         | 4.65 Gbits/sec | CPU at 12W TDP |
+| Intel N150                       | Ubuntu 25.10 / 6.17.0            | 4.65 Gbits/sec | |
 | Intel Core i7-8565U              | Debian trixie / 6.7.6 xanmod     | 4.93 Gbits/sec | Xanmod Kernel |
 | AMD Ryzen 5 PRO 5650GE           | Linux pve / 6.2.16               | 5.29 Gbits/sec | |
 | Surface Pro 11 with 5G / Snapdragon X Elite X1E-80-100 | Arch Linux ARM / 6.13.0 | 5.57 Gbits/sec | disabled 4 cores, other 8 cores running at 3.42GHz |
