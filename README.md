@@ -153,6 +153,7 @@ sh <(wget -O - https://raw.githubusercontent.com/cyyself/wg-bench/master/openwrt
 | FriendlyELEC NanoPC-T6 / Rockchip RK3588 (A76) | Debian trixie / 6.12.12-1 | 3.06 Gbits/sec | with A55 cores disabled |
 | Raspberry Pi 5 / BCM2712*        | Raspberry Pi OS / 6.1.68         | 3.08 Gbits/sec | Reconfigure Kernel [#5](https://github.com/cyyself/wg-bench/issues/5) |
 | Pixel 7a / Google Tensor G2      | Debian trixie / 6.1.2            | 3.14 Gbits/sec | 2 core pKVM |
+| Intel Xeon Platinum 8259CL       | Debian bookworm / 6.1.94         | 3.26 Gbits/sec | 4 core Hyper-V VM |
 | AMD Ryzen 9 5950X*               | Arch Linux / 6.7.6-arch1-1       | 3.28 Gbits/sec | [test 1 firewalld: running ; irqbalance: running](https://github.com/teelfox/wg-bench/blob/081895035183bdd03ee063f08efa307ecf7c0762/teelfox_ryzen_9_5950X.md) |
 | Intel Atlas Canyon / Intel Celeron N5105* | Alpine Linux / 6.6.28            | 3.44 Gbits/sec | |
 | Radxa Orion O6 / Cix P1*         | Debian sid / 6.12.9              | 3.48 Gbits/sec | With A520 little cores disabled |
