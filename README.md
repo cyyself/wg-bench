@@ -170,6 +170,7 @@ sh <(wget -O - https://raw.githubusercontent.com/cyyself/wg-bench/master/openwrt
 | Intel Core i5-4590               | Debian bookworm / 6.1.38         | 4.21 Gbits/sec | |
 | Intel Core i7-8850H              | Debian Trixie / Linux 6.12.35    | 4.29 Gbits/sec | firewalld stopped |
 | AMD Ryzen 9 5950X*               | Arch Linux / 6.7.6-arch1-1       | 4.30 Gbits/sec | [test 3 firewalld: stopped ; irqbalance: running](https://github.com/teelfox/wg-bench/blob/081895035183bdd03ee063f08efa307ecf7c0762/teelfox_ryzen_9_5950X.md) ; needs retesting [#1](https://github.com/teelfox/wg-bench/issues/1) |
+| Intel Core i5-12500              | ArchLinux / 6.17.1-2-cachyos     | 4.31 Gbits/sec | powerprofilectl on performance, E cores not disabled |
 | Intel Core i5-8500               | Ubuntu 22.04.3 / 5.15.0          | 4.49 Gbits/sec | |
 | LENOVO 90CYCTO1WW / Intel Core i5-4590 | ImmortalWrt 24.10.3 / 6.6.104    | 4.57 Gbits/sec | CPU at 3.49GHz |
 | Intel N100                       | Debian bookworm / 6.6.13         | 4.65 Gbits/sec | CPU at 12W TDP |
