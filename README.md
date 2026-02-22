@@ -80,6 +80,7 @@ sh <(wget -O - https://raw.githubusercontent.com/cyyself/wg-bench/master/openwrt
 | 360 T7 / MT7981                  | OpenWRT 23.05.0 / 5.15.134       | 369 Mbits/sec  | |
 | GL-iNet MT3000 / MT7981          | GL 5.4.211 / 5.10.0              | 369 Mbits/sec  | |
 | Xiaomi AX3000T / MT7981          | OpenWrt Snapshot / 6.1.82        | 371 Mbits/sec  | |
+| Linksys MX5300                   | OpenWrt 24.10.5                  | 758 Mbits/sec  | |
 | OpenWrt One / MT7981             | OpenWrt Snapshot / 6.6.43        | 375 Mbits/sec  | |
 | Cudy TR3000 v1 / MT7981BA        | OpenWrt 24.10.0 / 6.6.73         | 377 Mbits/sec  | |
 | Routerich AX3000 / MT7981        | OpenWRT 23.05.2 / 5.15.137       | 381 Mbits/sec  | |
