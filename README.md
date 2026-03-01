@@ -122,6 +122,7 @@ sh <(wget -O - https://raw.githubusercontent.com/cyyself/wg-bench/master/openwrt
 | Raspberry Pi 4 / BCM2711*        | OpenWRT 23.05.2 / 5.15.137       | 881 Mbits/sec  | CPU at 1.5GHz |
 | Asus TUF-AX4200 / MT7986AV       | OpenWRT Snapshot / 6.1.78        | 936 Mbits/sec  | |
 | JDCloud RE-CP-03 / MT7986A*      | OpenWRT Snapshot / 6.1.82        | 946 Mbits/sec  | with firewall disabled |
+| Zhaoxin C4600                    | eweOS / 6.18.12                  | 994 Mbits/sec  | CPU stepping 14, dual channel DDR3 at 1333MHz |
 | XpressReal T3 / RTD1619B         | Armbian Armbian-unofficial 25.11 | 1.00 Gbits/sec | PREEMPT_NONE |
 | Raspberry Pi 4 / BCM2711*        | OpenWRT 23.05.2 / 5.15.137       | 1.02 Gbits/sec | CPU at 2.0GHz |
 | FriendlyELEC NanoPC-T6 / Rockchip RK3588 (A53) | Debian trixie / 6.12.12-1 | 1.03 Gbits/sec | with A76 cores disabled |
