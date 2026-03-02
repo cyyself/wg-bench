@@ -105,6 +105,7 @@ sh <(wget -O - https://raw.githubusercontent.com/cyyself/wg-bench/master/openwrt
 | Dell Wyse 3040 / Intel Atom x5-Z8350 | OpenWRT 23.05.5 / 5.15.167   | 581 Mbits/sec  | All cores run on "performance" cpufreq governor |
 | Redmi AX6 / IPQ8071A             | OpenWRT Snapshot / 6.1.77        | 603 Mbits/sec  | |
 | Radxa E20C / RK3528              | iStoreOS / 5.10.201              | 620 Mbits/sec  | |
+| OrangePi Zero3 / Allwinner H618  | Armbian v26.2 rolling / 6.12.74-current-sunxi64 | 660 Mbits/sec | |
 | Raspberry Pi 4 / BCM2711*        | archlinux / 6.1.61(armv7l)       | 665 Mbits/sec  | |
 | FriendlyELEC NanoPi R3S / RK3566 | OpenWRT 24.10.1 / 6.6.86         | 695 Mbits/sec  | Firewall disabled |
 | Radxa A7Z / Allwinner A733       | Debian 11 / 5.15.147-11-a733     | 698 Mbits/sec  | |
