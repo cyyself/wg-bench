@@ -90,6 +90,7 @@ sh <(wget -O - https://raw.githubusercontent.com/cyyself/wg-bench/master/openwrt
 | GL.iNet GL-AXT1800 / IPQ6000     | OpenWRT SNAPSHOT / 6.6.84        | 414 Mbits/sec  | arm64 system by VIKINGYFY/immortalwrt, bypass os-release NAME check |
 | Lemote A1801 / Loongson 3A3000-LP | Debian bookworm / 5.10.209      | 423 Mbits/sec  | CPU reversion variant H2, clocked at 1.45GHz |
 | Linksys WRT3200ACM / 88F6820     | OpenWRT 23.05.2 / 5.15.137       | 426 Mbits/sec  | |
+| Radxa NIO12L / MT8395            | Ubuntu 22.04 / 5.15.0            | 436 Mbits/sec  | Only enable A55 cores |
 | Phytium Pi (V2.2) / E2000Q FT664 (1.8GHz) | deepin V23 Beta3 / 5.10.209 | 437 Mbits/sec  | With FT310 "little" cores disabled |
 | Milk-V Pioneer / SG2042          | RevyOS / 6.1.61                  | 440 Mbits/sec  | |
 | Raspberry Pi Zero 2W / BCM2710A1 | OpenWRT 23.05.2 / 5.15.137       | 443 Mbits/sec  | |
@@ -102,6 +103,7 @@ sh <(wget -O - https://raw.githubusercontent.com/cyyself/wg-bench/master/openwrt
 | FriendlyELEC NanoPi R3S / RK3566 | OpenWRT 24.10.1 / 6.6.86         | 544 Mbits/sec  | Default OpenWRT firewall settings |
 | Intel Celeron(R) J1800           | Ubuntu 22.04.3 / 5.15.0          | 551 Mbits/sec  | |
 | Routerich AX3000 / MT7981        | OpenWRT 24.10.2 / 6.6.93         | 559 Mbits/sec  | OC to 2.24GHz |
+| Radxa NIO12L / MT8395            | Ubuntu 22.04 / 5.15.0            | 566 Mbits/sec  | Default use all cores |
 | Dell Wyse 3040 / Intel Atom x5-Z8350 | OpenWRT 23.05.5 / 5.15.167   | 581 Mbits/sec  | All cores run on "performance" cpufreq governor |
 | Redmi AX6 / IPQ8071A             | OpenWRT Snapshot / 6.1.77        | 603 Mbits/sec  | |
 | Radxa E20C / RK3528              | iStoreOS / 5.10.201              | 620 Mbits/sec  | |
@@ -137,6 +139,7 @@ sh <(wget -O - https://raw.githubusercontent.com/cyyself/wg-bench/master/openwrt
 | Phytium D2000x8 (2.3GHz)         | Debian trixie / 6.11.7           | 1.49 Gbits/sec | |
 | Intel Celeron N4500              | Linux pve / 6.2.16-3-pve         | 1.54 Gbits/sec | |
 | Intel i5-7300U                   | ArchLinux / 6.17.1-2-cachyos     | 1.59 Gbits/sec | |
+| Radxa NIO12L / MT8395            | Ubuntu 22.04 / 5.15.0            | 1.60 Gbits/sec  | Only enable A78 cores |
 | Mac Mini (2020) / Apple M1*      | AsahiLinux / 6.5.0               | 1.60 Gbits/sec | |
 | HUAWEI SDIv3 / Kunpeng 920       | Debian trixie / 6.11.7 / -R      | 1.69 Gbits/sec | |
 | Loongson-3A6000-HV               | LoongArchLinux / 6.6.0-rc4       | 1.85 Gbits/sec | |
