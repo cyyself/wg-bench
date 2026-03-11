@@ -138,6 +138,7 @@ sh <(wget -O - https://raw.githubusercontent.com/cyyself/wg-bench/master/openwrt
 | iEi Puzzle-M902 / Marvell CN9130 | OpenWRT 23.05.03 / 5.15.150      | 1.43 Gbits/sec | |
 | Phytium D2000x8 (2.3GHz)         | Debian trixie / 6.11.7           | 1.49 Gbits/sec | |
 | Intel Celeron N4500              | Linux pve / 6.2.16-3-pve         | 1.54 Gbits/sec | |
+| OneThingCloud OES / Amlogic A311D | Armbian Trixie / 6.18.16-ophub   | 1.55 Gbits/sec | |
 | Intel i5-7300U                   | ArchLinux / 6.17.1-2-cachyos     | 1.59 Gbits/sec | |
 | Radxa NIO12L / MT8395            | Ubuntu 22.04 / 5.15.0            | 1.60 Gbits/sec  | Only enable A78 cores |
 | Mac Mini (2020) / Apple M1*      | AsahiLinux / 6.5.0               | 1.60 Gbits/sec | |
