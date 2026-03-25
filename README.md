@@ -48,6 +48,7 @@ sh <(wget -O - https://raw.githubusercontent.com/cyyself/wg-bench/master/openwrt
 | Beeline SmartBox PRO / MT7621AT  | OpenWrt 23.05.2 / 5.15.137       | 101 Mbits/sec  | |
 | Beeline SmartBox TURBO+ / MT7621A | OpenWrt Snapshot / 5.15.148       | 104 Mbits/sec  | |
 | TP-Link EC330-G5u V1 / MT7621A   | OpenWrt 23.05.2 / 5.15.137       | 104 Mbits/sec  | |
+| ASUS RT-AX53U / MT7621AT         | OpenWrt SNAPSHOT / 6.12.77       | 122 Mbits/sec  | Overclocked 1.2 GHz |
 | GL.iNet GL-B3000 / IPQ5018       | OpenWrt SNAPSHOT / 6.6.89        | 122 Mbits/sec  | |
 | Asus RT-AC68U / BCM5301X         | OpenWRT 24.10.2 / 6.6.93         | 140 Mbit/sec   | Stock 2 core 1.0 GHz |
 | Google WiFi (Gale) / IPQ4019     | OpenWrt 23.05.2 / 5.15.137       | 164 Mbits/sec  | |
