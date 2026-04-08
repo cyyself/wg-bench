@@ -118,6 +118,7 @@ sh <(wget -O - https://raw.githubusercontent.com/cyyself/wg-bench/master/openwrt
 | Mercusys MR90X v1 / MT7986       | OpenWRT 23.05.2 / 5.15.137       | 754 Mbits/sec  | |
 | Intel Celeron N2930              | OpenWRT 23.05.2 / 5.15.137       | 762 Mbits/sec  | |
 | OrangePi 5 / Rockchip rk3588s*   | Armbian 23.8.1 / 5.10.110        | 772 Mbits/sec  | |
+| Raspberry Pi 4 / BCM2711*        | Raspberry Pi OS trixie / 6.12.47+rpt-rpi-v8       | 777 Mbits/sec  | Stock 1.80GHz|
 | Asus TUF-AX6000 / MT7986AV       | OpenWRT Snapshot / 6.1.78        | 786 Mbits/sec  | |
 | JDCloud RE-CP-03 / MT7986A*      | OpenWRT Snapshot / 6.1.82        | 788 Mbits/sec  | default openwrt firewall settings |
 | Lemote A2005 / Loongson 3A4000   | Debian bookworm / 6.1.76         | 799 Mbits/sec  | |
