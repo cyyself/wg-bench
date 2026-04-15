@@ -111,6 +111,7 @@ sh <(wget -O - https://raw.githubusercontent.com/cyyself/wg-bench/master/openwrt
 | Radxa E20C / RK3528              | iStoreOS / 5.10.201              | 620 Mbits/sec  | |
 | OrangePi Zero3 / Allwinner H618  | Armbian v26.2 rolling / 6.12.74-current-sunxi64 | 660 Mbits/sec | |
 | Raspberry Pi 4 / BCM2711*        | archlinux / 6.1.61(armv7l)       | 665 Mbits/sec  | |
+| Linksys MR7500 (MR75WH) / IPQ6018| OpenWrt 25.12.2 / 6.12.74        | 687 Mbits/sec  | |
 | FriendlyELEC NanoPi R3S / RK3566 | OpenWRT 24.10.1 / 6.6.86         | 695 Mbits/sec  | Firewall disabled |
 | Radxa A7Z / Allwinner A733       | Debian 11 / 5.15.147-11-a733     | 698 Mbits/sec  | |
 | NanoPi R6C / RK3588S             | OpenWrt 24.10.0-rc5 / 6.6.69     | 728 Mbits/sec  | |
