@@ -42,34 +42,34 @@ sh <(wget -O - https://raw.githubusercontent.com/cyyself/wg-bench/master/openwrt
 | GL-iNet MT1300 / MT7621A         | OpenWrt 23.05.2 / 5.15.137       | 82.5 Mbits/sec | |
 | D-Team Newifi D2 / MT7621AT      | OpenWrt 23.05.2 / 5.15.137       | 93 Mbits/sec   | |
 | Zyxel WSM20 / MT7621AT           | OpenWrt 23.05.2 / 5.15.137       | 98.3 Mbits/sec | |
-| ASUS RT-AX53U / MT7621AT         | OpenWrt 23.05.2 / 5.15.137       | 98.9 Mbits/sec  | |
+| ASUS RT-AX53U / MT7621AT         | OpenWrt 23.05.2 / 5.15.137       | 98.9 Mbits/sec | |
 | Ubiquit EdgeRouter-X / MT7621AT  | OpenWrt 23.05.2 / 5.15.137       | 99 Mbits/sec   | |
 | Beeline SmartBox GIGA / MT7621A  | OpenWrt 23.05.2 / 5.15.137       | 100 Mbits/sec  | |
 | Beeline SmartBox PRO / MT7621AT  | OpenWrt 23.05.2 / 5.15.137       | 101 Mbits/sec  | |
-| Beeline SmartBox TURBO+ / MT7621A | OpenWrt Snapshot / 5.15.148       | 104 Mbits/sec  | |
+| Beeline SmartBox TURBO+ / MT7621A | OpenWrt Snapshot / 5.15.148     | 104 Mbits/sec  | |
 | TP-Link EC330-G5u V1 / MT7621A   | OpenWrt 23.05.2 / 5.15.137       | 104 Mbits/sec  | |
 | ASUS RT-AX53U / MT7621AT         | OpenWrt SNAPSHOT / 6.12.77       | 122 Mbits/sec  | Overclocked 1.2 GHz |
 | GL.iNet GL-B3000 / IPQ5018       | OpenWrt SNAPSHOT / 6.6.89        | 122 Mbits/sec  | |
 | Asus RT-AC68U / BCM5301X         | OpenWRT 24.10.2 / 6.6.93         | 140 Mbit/sec   | Stock 2 core 1.0 GHz |
 | Google WiFi (Gale) / IPQ4019     | OpenWrt 23.05.2 / 5.15.137       | 164 Mbits/sec  | |
-| AVM FRITZ!Box 7530 / ipq40xx     | OpenWrt 23.05.2 / 5.15.137       | 184 Mbits/sec | |
-| Raspberry Pi 2B v1.1 / BCM2836   | Debian bullseye / 6.1.21         | 192 Mbits/sec | |
-| P&W R619AC 128M / IPQ4019     | OpenWrt 23.05.4 / 5.15.164       | 201 Mbits/sec  | Overclocked 896 MHz |
-| Xiaomi Mi Router R3D / IPQ8064   | OpenWrt Snapshot / 6.1.77       | 214 Mbits/sec  | |
+| AVM FRITZ!Box 7530 / ipq40xx     | OpenWrt 23.05.2 / 5.15.137       | 184 Mbits/sec  | |
+| Raspberry Pi 2B v1.1 / BCM2836   | Debian bullseye / 6.1.21         | 192 Mbits/sec  | |
+| P&W R619AC 128M / IPQ4019     | OpenWrt 23.05.4 / 5.15.164          | 201 Mbits/sec  | Overclocked 896 MHz |
+| Xiaomi Mi Router R3D / IPQ8064   | OpenWrt Snapshot / 6.1.77        | 214 Mbits/sec  | |
 | NanoPi R2S / RK3328              | OpenWrt 23.05.2 / 5.15.137       | 234 Mbits/sec  | |
-| Linksys WRT1900AC v1 / Marvell Armada XP MV78230 | OpenWrt SNAPSHOT / 6.12.68       | 244 Mbits/sec  |  |
+| Linksys WRT1900AC v1 / Marvell Armada XP MV78230 | OpenWrt SNAPSHOT / 6.12.68        | 244 Mbits/sec  |  |
 | Rock Cubie A5E / A527            | Armbian 25.5.0 / 6.14.0          | 245 Mbits/sec  | |
 | TP-Link Archer C2600 v1.x / IPQ8064 | OpenWrt 23.05.4 / 5.15.162    | 250 Mbits/sec  | |
 | Intel Atom E3825                 | OpenWrt 23.05.2 / 5.15.137       | 259 Mbits/sec  | |
 | UFI001C (UFI003) / MSM8916       | OpenStick / [5.15.0](https://github.com/OpenStick/linux) | 260 Mbits/sec | |
-| Cisco/Viptela vEdge 1000 / Cavium CN6130  | OpenWrt 24.10.1 / 6.6.86   | 260 Mbits/sec  | |
+| Cisco/Viptela vEdge 1000 / Cavium CN6130 | OpenWrt 24.10.1 / 6.6.86 | 260 Mbits/sec  | |
 | Bananapi BPI-RV2 (Booting from NAND) / Siflower SF21H8898 | OpenWrt SNAPSHOT / 6.6.114       | 261 Mbits/sec  |  |
 | Ubiquiti EdgeRouter 4 / Cavium CN7130  | OpenWrt 24.10.0 / 6.6.73   | 271 Mbits/sec  | |
 | Netgear R7800 / IPQ8065          | OpenWrt 23.05.2 / 5.15.137       | 291 Mbits/sec  | |
 | Banana Pi BPI-M2 ZERO / Allwinner H2+ | Armbian 25.5.0 / 6.12.23    | 295 Mbits/sec  | |
 | Lemote A1310 / Loongson 3B1500   | AOSC OS 12.0.4 / 6.12.13-aosc-lts | 315 Mbits/sec | CPU reversion 3B1500G, dual-channel memory @ 1066MHz, with firmware PMON-A1310-1.1.0-8cores-official.bin, highest of 10 runs |
 | NanoPi R5S / RK3568              | OpenWrt 24.10.0-rc4 / 6.12.6     | 318 Mbits/sec  | |
-| Radxa Orion O6 / Cix P1*         | Debian sid / 6.12.9              | 320 Mbits/sec | With all cores enabled |
+| Radxa Orion O6 / Cix P1*         | Debian sid / 6.12.9              | 320 Mbits/sec  | With all cores enabled |
 | Lemote A1601 / Loongson 3A2000   | AOSC OS 12.0.4 / 6.12.13-aosc-lts | 346 Mbits/sec | Highest of 5 runs |
 | Fortinet FortiGate 50E / 88F6820 | OpenWrt 24.10.1 / 6.6.86         | 347 Mbits/sec  | |
 | Phytium Pi (V2.2) / E2000Q FT310 (1.5GHz) | deepin V23 Beta3 / 5.10.209 | 358 Mbits/sec | With FT664 "big" cores disabled |
@@ -81,7 +81,6 @@ sh <(wget -O - https://raw.githubusercontent.com/cyyself/wg-bench/master/openwrt
 | 360 T7 / MT7981                  | OpenWRT 23.05.0 / 5.15.134       | 369 Mbits/sec  | |
 | GL-iNet MT3000 / MT7981          | GL 5.4.211 / 5.10.0              | 369 Mbits/sec  | |
 | Xiaomi AX3000T / MT7981          | OpenWrt Snapshot / 6.1.82        | 371 Mbits/sec  | |
-| Linksys MX5300                   | OpenWrt 24.10.5                  | 758 Mbits/sec  | |
 | OpenWrt One / MT7981             | OpenWrt Snapshot / 6.6.43        | 375 Mbits/sec  | |
 | Cudy TR3000 v1 / MT7981BA        | OpenWrt 24.10.0 / 6.6.73         | 377 Mbits/sec  | |
 | Routerich AX3000 / MT7981        | OpenWRT 23.05.2 / 5.15.137       | 381 Mbits/sec  | |
@@ -89,7 +88,7 @@ sh <(wget -O - https://raw.githubusercontent.com/cyyself/wg-bench/master/openwrt
 | Redmi AX6S / MT7622              | OpenWRT 23.05.2 / 5.15.137       | 391 Mbits/sec  | |
 | StarFive VisionFive 2 / JH7110   | Debian trixie / 5.15.0           | 402 Mbits/sec  | |
 | GL.iNet GL-AXT1800 / IPQ6000     | OpenWRT SNAPSHOT / 6.6.84        | 414 Mbits/sec  | arm64 system by VIKINGYFY/immortalwrt, bypass os-release NAME check |
-| Lemote A1801 / Loongson 3A3000-LP | Debian bookworm / 5.10.209      | 423 Mbits/sec  | CPU reversion variant H2, clocked at 1.45GHz |
+| Lemote A1801 / Loongson 3A3000-LP| Debian bookworm / 5.10.209       | 423 Mbits/sec   | CPU reversion variant H2, clocked at 1.45GHz |
 | Linksys WRT3200ACM / 88F6820     | OpenWRT 23.05.2 / 5.15.137       | 426 Mbits/sec  | |
 | Radxa NIO12L / MT8395            | Ubuntu 22.04 / 5.15.0            | 436 Mbits/sec  | Only enable A55 cores |
 | Phytium Pi (V2.2) / E2000Q FT664 (1.8GHz) | deepin V23 Beta3 / 5.10.209 | 437 Mbits/sec  | With FT310 "little" cores disabled |
@@ -117,6 +116,7 @@ sh <(wget -O - https://raw.githubusercontent.com/cyyself/wg-bench/master/openwrt
 | NanoPi R6C / RK3588S             | OpenWrt 24.10.0-rc5 / 6.6.69     | 728 Mbits/sec  | |
 | Banana Pi BPI-R3 Mini / MT7986A  | OpenWRT 24.10.0-rc5 / 6.6.69     | 730 Mbits/sec  | |
 | Mercusys MR90X v1 / MT7986       | OpenWRT 23.05.2 / 5.15.137       | 754 Mbits/sec  | |
+| Linksys MX5300 / IPQ8072A        | OpenWrt 24.10.5 / 6.6.119        | 758 Mbits/sec  | |
 | Intel Celeron N2930              | OpenWRT 23.05.2 / 5.15.137       | 762 Mbits/sec  | |
 | OrangePi 5 / Rockchip rk3588s*   | Armbian 23.8.1 / 5.10.110        | 772 Mbits/sec  | |
 | Raspberry Pi 4 / BCM2711*        | Raspberry Pi OS trixie / 6.12.47+rpt-rpi-v8       | 777 Mbits/sec  | Stock 1.80GHz|
@@ -142,7 +142,7 @@ sh <(wget -O - https://raw.githubusercontent.com/cyyself/wg-bench/master/openwrt
 | iEi Puzzle-M902 / Marvell CN9130 | OpenWRT 23.05.03 / 5.15.150      | 1.43 Gbits/sec | |
 | Phytium D2000x8 (2.3GHz)         | Debian trixie / 6.11.7           | 1.49 Gbits/sec | |
 | Intel Celeron N4500              | Linux pve / 6.2.16-3-pve         | 1.54 Gbits/sec | |
-| OneThingCloud OES / Amlogic A311D | Armbian Trixie / 6.18.16-ophub   | 1.55 Gbits/sec | |
+| OneThingCloud OES / Amlogic A311D| Armbian Trixie / 6.18.16-ophub   | 1.55 Gbits/sec | |
 | Intel i5-7300U                   | ArchLinux / 6.17.1-2-cachyos     | 1.59 Gbits/sec | |
 | Radxa NIO12L / MT8395            | Ubuntu 22.04 / 5.15.0            | 1.60 Gbits/sec  | Only enable A78 cores |
 | Mac Mini (2020) / Apple M1*      | AsahiLinux / 6.5.0               | 1.60 Gbits/sec | |
