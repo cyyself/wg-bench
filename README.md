@@ -127,6 +127,7 @@ sh <(wget -O - https://raw.githubusercontent.com/cyyself/wg-bench/master/openwrt
 | TP-Link XDR 6088 / MT7986        | OpenWRT 23.05.0 / 5.15.134       | 818 Mbits/sec  | |
 | Redmi AX6000 / MT7986A           | OpenWRT 23.05.3 / 5.15.150       | 820 Mbits/sec  | |
 | Raspberry Pi 4 / BCM2711*        | OpenWRT 23.05.2 / 5.15.137       | 881 Mbits/sec  | CPU at 1.5GHz |
+| Radxa E52C / Rockchip RK3582*    | OpenWrt 25.12.3 / 6.12.85        | 912 Mbits/sec  |  |
 | Asus TUF-AX4200 / MT7986AV       | OpenWRT Snapshot / 6.1.78        | 936 Mbits/sec  | |
 | JDCloud RE-CP-03 / MT7986A*      | OpenWRT Snapshot / 6.1.82        | 946 Mbits/sec  | with firewall disabled |
 | Zhaoxin C4600                    | eweOS / 6.18.12                  | 994 Mbits/sec  | CPU stepping 14, dual channel DDR3 at 1333MHz |
@@ -167,6 +168,7 @@ sh <(wget -O - https://raw.githubusercontent.com/cyyself/wg-bench/master/openwrt
 | Intel Xeon E3-1265L v3           | Debian trixie / 6.6.13           | 3.03 Gbits/sec | |
 | FriendlyELEC NanoPC-T6 / Rockchip RK3588 (A76) | Debian trixie / 6.12.12-1 | 3.06 Gbits/sec | with A55 cores disabled |
 | Raspberry Pi 5 / BCM2712*        | Raspberry Pi OS / 6.1.68         | 3.08 Gbits/sec | Reconfigure Kernel [#5](https://github.com/cyyself/wg-bench/issues/5) |
+| Radxa E52C / Rockchip RK3582*    | OpenWrt 25.12.3 / 6.12.85        | 3.11 Gbits/sec |  |
 | Pixel 7a / Google Tensor G2      | Debian trixie / 6.1.2            | 3.14 Gbits/sec | 2 core pKVM |
 | Intel Xeon Platinum 8259CL       | Debian bookworm / 6.1.94         | 3.26 Gbits/sec | 4 core Hyper-V VM |
 | AMD Ryzen 9 5950X*               | Arch Linux / 6.7.6-arch1-1       | 3.28 Gbits/sec | [test 1 firewalld: running ; irqbalance: running](https://github.com/teelfox/wg-bench/blob/081895035183bdd03ee063f08efa307ecf7c0762/teelfox_ryzen_9_5950X.md) |
