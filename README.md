@@ -200,6 +200,7 @@ sh <(wget -O - https://raw.githubusercontent.com/cyyself/wg-bench/master/openwrt
 | Intel Core i9 13900K             | Debian trixie / 6.5.13           | 7.53 Gbits/sec | |
 | AMD Ryzen 7 7840HS               | Arch Linux / 6.8.7-2-cachyos-bore-lto_v4 | 8.11 Gbits/sec| CachyOS Kernel|
 | Intel Core i9 12900KS            | Ubuntu 22.04 / 6.2.0-32          | 8.30 Gbits/sec | |
+| AMD Ryzen 9 9955HX | Debian Trixie / 6.12.94-1 | 9.22 Gbits/sec | PVE(9.2.3) VM 3 cores(host type) |
 | MacBook Pro 2023 / Apple M2 Max* | Debian bookworm / 6.7.4-1 | 9.30 Gbits/sec | 4 core VZ VM |
 | MacBook Pro 2023 / Apple M3 Max* | Ubuntu 22.04 / 5.15.0-91 | 9.39 Gbits/sec | 4 core VM (Parallels Desktop 19.3.0) |
 | Intel Core i9 13905H*            | Arch Linux / 6.10.3              | 10.5 Gbits/sec | |
