@@ -206,6 +206,7 @@ sh <(wget -O - https://raw.githubusercontent.com/cyyself/wg-bench/master/openwrt
 | Intel Core i9 13905H*            | Arch Linux / 6.10.3              | 10.5 Gbits/sec | |
 | MacBook Pro 2024 / Apple M4 Pro  | Debian sid / 6.11.2              | 10.5 Gbits/sec | 4 core VM (VMware Fusion 13.6.2) |
 | MacBook Air 2024 / Apple M3      | Ubuntu 24.04 / 6.10.14-linuxkit  | 10.8 Gbits/sec | 5 core VM (Docker Desktop 4.46.0) |
+| Fujitsu Futro S740               | Proxmox 9.2.5 / 7.0.2-6-pve      | 1.35 Gbits/sec | |
 
 If you have more results to show, PR is welcomed.
 
