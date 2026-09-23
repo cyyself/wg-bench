@@ -163,6 +163,7 @@ sh <(wget -O - https://raw.githubusercontent.com/cyyself/wg-bench/master/openwrt
 | Huawei Qingyun W510 / HiSilicon Kunpeng 920 3211k | Debian bookworm / 6.1.124 | 2.67 Gbits/sec | With 32-core unlock mod |
 | AMD EPYC 7302                    | Debian bookworm / 6.1.55         | 2.69 Gbits/sec | |
 | Intel CC150                      | Linux pve / 6.5.13               | 2.78 Gbits/sec | |
+| Lenovo ThinkPad E14 / Intel Core i5-10210U | Arch Linux / 6.18.41-1-lts | 2.81 Gbits/sec | Average of 5 runs |
 | Intel Atom P5342                 | Debian bookworm / 6.1.0-16       | 2.89 Gbits/sec | |
 | Firewalla Gold Pro / Intel N97   | Ubuntu 22.04.4 LTS / 6.5.0-25    | 2.95 Gbits/sec | |
 | Huawei Qingyun W510 / HiSilicon Kunpeng 920 2426sk | Debian bookworm / 6.1.76 | 3.01 Gbits/sec | Highest of 5 runs |
