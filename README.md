@@ -142,6 +142,7 @@ sh <(wget -O - https://raw.githubusercontent.com/cyyself/wg-bench/master/openwrt
 | Intel Atom C3558                 | Debian bookworm / 6.1.0-13       | 1.26 Gbits/sec | |
 | Banana Pi BPI-R4 / MT7988A       | OpenWRT Snapshot / 6.1.77        | 1.27 Gbits/sec | |
 | Lemote A2101 / Loongson 3A5000   | AOSC OS 12.0.4 / 6.12.13-aosc-lts | 1.34 Gbits/sec | CPU clocked at 2.5GHz |
+| Fujitsu Futro S740               | Proxmox 9.2.5 / 7.0.2-6-pve      | 1.35 Gbits/sec | |
 | iEi Puzzle-M902 / Marvell CN9130 | OpenWRT 23.05.03 / 5.15.150      | 1.43 Gbits/sec | |
 | Phytium D2000x8 (2.3GHz)         | Debian trixie / 6.11.7           | 1.49 Gbits/sec | |
 | Intel Celeron N4500              | Linux pve / 6.2.16-3-pve         | 1.54 Gbits/sec | |
