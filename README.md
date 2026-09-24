@@ -97,6 +97,7 @@ sh <(wget -O - https://raw.githubusercontent.com/cyyself/wg-bench/master/openwrt
 | Raspberry Pi Zero 2W / BCM2710A1 | OpenWRT 23.05.2 / 5.15.137       | 443 Mbits/sec  | |
 | Linksys MX4300 / IPQ8174         | OpenWRT 24.10.0-rc2 / 6.6.63     | 443 Mbits/sec  | |
 | Sipeed Lichee Pi 4A / TH1520     | RevyOS / 6.6.4                   | 451 Mbits/sec  | |
+| VNPT XSW-050NS / AN7581          | OpenWrt SNAPSHOT / 6.18.53       | 468 Mbits/sec  | Overclocked 1.4Ghz |
 | JDCloud RE-CS-02 / IPQ6018       | ImmortalWRT SNAPSHOT / 6.12.62   | 481 Mbits/sec  | arm64 system by VIKINGYFY/immortalwrt, bypass os-release NAME check |
 | Nokia Bell XG-040G-MD / AN7581   | OpenWrt 25.12.0 / 6.12.71 | 494 Mbits/sec  | Build from patches proposed in openwrt #21896, not yet official |
 | FriendlyElec NanoPi R4S / RK3399 | OpenWrt 25.12.5 / 6.12.94        | 514 Mbits/sec  | Fresh install + Stock OpenWrt config. Highest of 3 runs. More information on [#110](https://github.com/cyyself/wg-bench/pull/110) |
