@@ -38,6 +38,7 @@ sh <(wget -O - https://raw.githubusercontent.com/cyyself/wg-bench/master/openwrt
 | Lemote Fuloong / Loongson 2F     | Gentoo / 6.1.74 CONFIG_PREEMPT   | 38.1 Mbits/sec | Highest of 10 runs |
 | Lemote Fuloong / Loongson 2F     | Gentoo / 6.1.74 PREEMPT_NONE     | 47.2 Mbits/sec | Highest of 10 runs |
 |Ubiquiti EdgeRouter Lite / Octeon CN5020 | OpenWrt 24.10.1 / 6.6.86  | 48.5 Mbits/sec |Default settings (single-core) |
+| TP-Link ER605 v2 / MT7621AT | OpenWrt 25.12.5 / 6.12.94        | 70.4 Mbits/sec |  |
 |Ubiquiti EdgeRouter Lite / Octeon CN5020 | OpenWrt 24.10.4 / 6.6.110 | 70.9 Mbits/sec |Dual core with irqbalance |
 | GL-iNet MT1300 / MT7621A         | OpenWrt 23.05.2 / 5.15.137       | 82.5 Mbits/sec | |
 | D-Team Newifi D2 / MT7621AT      | OpenWrt 23.05.2 / 5.15.137       | 93 Mbits/sec   | |
@@ -98,6 +99,7 @@ sh <(wget -O - https://raw.githubusercontent.com/cyyself/wg-bench/master/openwrt
 | Linksys MX4300 / IPQ8174         | OpenWRT 24.10.0-rc2 / 6.6.63     | 443 Mbits/sec  | |
 | Sipeed Lichee Pi 4A / TH1520     | RevyOS / 6.6.4                   | 451 Mbits/sec  | |
 | VNPT XSW-050NS / AN7581          | OpenWrt SNAPSHOT / 6.18.53       | 468 Mbits/sec  | Overclocked 1.4Ghz |
+| Gemtek W1700K / Airoha AN7581GT | OpenWrt ubi2-oc / 6.18.52         | 470 Mbits/sec  | Running at stock 1.4GHz, Snapshot OpenWrt Build from https://github.com/w1700k |
 | JDCloud RE-CS-02 / IPQ6018       | ImmortalWRT SNAPSHOT / 6.12.62   | 481 Mbits/sec  | arm64 system by VIKINGYFY/immortalwrt, bypass os-release NAME check |
 | Nokia Bell XG-040G-MD / AN7581   | OpenWrt 25.12.0 / 6.12.71 | 494 Mbits/sec  | Build from patches proposed in openwrt #21896, not yet official |
 | FriendlyElec NanoPi R4S / RK3399 | OpenWrt 25.12.5 / 6.12.94        | 514 Mbits/sec  | Fresh install + Stock OpenWrt config. Highest of 3 runs. More information on [#110](https://github.com/cyyself/wg-bench/pull/110) |
