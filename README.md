@@ -171,6 +171,7 @@ sh <(wget -O - https://raw.githubusercontent.com/cyyself/wg-bench/master/openwrt
 | Lenovo ThinkPad E14 / Intel Core i5-10210U | Arch Linux / 6.18.41-1-lts | 2.81 Gbits/sec | Average of 5 runs |
 | Intel Atom P5342                 | Debian bookworm / 6.1.0-16       | 2.89 Gbits/sec | |
 | Firewalla Gold Pro / Intel N97   | Ubuntu 22.04.4 LTS / 6.5.0-25    | 2.95 Gbits/sec | |
+| Intel Core i5-2500S              | Debian trixie / 6.12.111 | 2.97Gbits/sec | Average of 5 runs ThinkCentre M91p |
 | Huawei Qingyun W510 / HiSilicon Kunpeng 920 2426sk | Debian bookworm / 6.1.76 | 3.01 Gbits/sec | Highest of 5 runs |
 | Intel Xeon E3-1265L v3           | Debian trixie / 6.6.13           | 3.03 Gbits/sec | |
 | FriendlyELEC NanoPC-T6 / Rockchip RK3588 (A76) | Debian trixie / 6.12.12-1 | 3.06 Gbits/sec | with A55 cores disabled |
