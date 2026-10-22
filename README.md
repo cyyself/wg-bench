@@ -38,6 +38,7 @@ sh <(wget -O - https://raw.githubusercontent.com/cyyself/wg-bench/master/openwrt
 | Lemote Fuloong / Loongson 2F     | Gentoo / 6.1.74 CONFIG_PREEMPT   | 38.1 Mbits/sec | Highest of 10 runs |
 | Lemote Fuloong / Loongson 2F     | Gentoo / 6.1.74 PREEMPT_NONE     | 47.2 Mbits/sec | Highest of 10 runs |
 |Ubiquiti EdgeRouter Lite / Octeon CN5020 | OpenWrt 24.10.1 / 6.6.86  | 48.5 Mbits/sec |Default settings (single-core) |
+| TP-Link ER605 v2 / MT7621AT | OpenWrt 25.12.5 / 6.12.94        | 70.4 Mbits/sec |  |
 |Ubiquiti EdgeRouter Lite / Octeon CN5020 | OpenWrt 24.10.4 / 6.6.110 | 70.9 Mbits/sec |Dual core with irqbalance |
 | GL-iNet MT1300 / MT7621A         | OpenWrt 23.05.2 / 5.15.137       | 82.5 Mbits/sec | |
 | D-Team Newifi D2 / MT7621AT      | OpenWrt 23.05.2 / 5.15.137       | 93 Mbits/sec   | |
@@ -67,6 +68,7 @@ sh <(wget -O - https://raw.githubusercontent.com/cyyself/wg-bench/master/openwrt
 | Ubiquiti EdgeRouter 4 / Cavium CN7130  | OpenWrt 24.10.0 / 6.6.73   | 271 Mbits/sec  | |
 | Netgear R7800 / IPQ8065          | OpenWrt 23.05.2 / 5.15.137       | 291 Mbits/sec  | |
 | Banana Pi BPI-M2 ZERO / Allwinner H2+ | Armbian 25.5.0 / 6.12.23    | 295 Mbits/sec  | |
+| Radxa ROCK Pi S / RK3308B | OpenWrt 25.12.6 / 6.12.112       | 312 Mbits/sec  |  |
 | Lemote A1310 / Loongson 3B1500   | AOSC OS 12.0.4 / 6.12.13-aosc-lts | 315 Mbits/sec | CPU reversion 3B1500G, dual-channel memory @ 1066MHz, with firmware PMON-A1310-1.1.0-8cores-official.bin, highest of 10 runs |
 | NanoPi R5S / RK3568              | OpenWrt 24.10.0-rc4 / 6.12.6     | 318 Mbits/sec  | |
 | Radxa Orion O6 / Cix P1*         | Debian sid / 6.12.9              | 320 Mbits/sec  | With all cores enabled |
@@ -98,6 +100,7 @@ sh <(wget -O - https://raw.githubusercontent.com/cyyself/wg-bench/master/openwrt
 | Linksys MX4300 / IPQ8174         | OpenWRT 24.10.0-rc2 / 6.6.63     | 443 Mbits/sec  | |
 | Sipeed Lichee Pi 4A / TH1520     | RevyOS / 6.6.4                   | 451 Mbits/sec  | |
 | VNPT XSW-050NS / AN7581          | OpenWrt SNAPSHOT / 6.18.53       | 468 Mbits/sec  | Overclocked 1.4Ghz |
+| Gemtek W1700K / Airoha AN7581GT | OpenWrt ubi2-oc / 6.18.52         | 470 Mbits/sec  | Running at stock 1.4GHz, Snapshot OpenWrt Build from https://github.com/w1700k |
 | JDCloud RE-CS-02 / IPQ6018       | ImmortalWRT SNAPSHOT / 6.12.62   | 481 Mbits/sec  | arm64 system by VIKINGYFY/immortalwrt, bypass os-release NAME check |
 | Nokia Bell XG-040G-MD / AN7581   | OpenWrt 25.12.0 / 6.12.71 | 494 Mbits/sec  | Build from patches proposed in openwrt #21896, not yet official |
 | FriendlyElec NanoPi R4S / RK3399 | OpenWrt 25.12.5 / 6.12.94        | 514 Mbits/sec  | Fresh install + Stock OpenWrt config. Highest of 3 runs. More information on [#110](https://github.com/cyyself/wg-bench/pull/110) |
@@ -169,6 +172,7 @@ sh <(wget -O - https://raw.githubusercontent.com/cyyself/wg-bench/master/openwrt
 | Lenovo ThinkPad E14 / Intel Core i5-10210U | Arch Linux / 6.18.41-1-lts | 2.81 Gbits/sec | Average of 5 runs |
 | Intel Atom P5342                 | Debian bookworm / 6.1.0-16       | 2.89 Gbits/sec | |
 | Firewalla Gold Pro / Intel N97   | Ubuntu 22.04.4 LTS / 6.5.0-25    | 2.95 Gbits/sec | |
+| Intel Core i5-2500S              | Debian trixie / 6.12.111 | 2.97Gbits/sec | Average of 5 runs ThinkCentre M91p |
 | Huawei Qingyun W510 / HiSilicon Kunpeng 920 2426sk | Debian bookworm / 6.1.76 | 3.01 Gbits/sec | Highest of 5 runs |
 | Intel Xeon E3-1265L v3           | Debian trixie / 6.6.13           | 3.03 Gbits/sec | |
 | FriendlyELEC NanoPC-T6 / Rockchip RK3588 (A76) | Debian trixie / 6.12.12-1 | 3.06 Gbits/sec | with A55 cores disabled |
