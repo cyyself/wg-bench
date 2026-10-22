@@ -149,6 +149,7 @@ sh <(wget -O - https://raw.githubusercontent.com/cyyself/wg-bench/master/openwrt
 | Fujitsu Futro S740               | Proxmox 9.2.5 / 7.0.2-6-pve      | 1.35 Gbits/sec | |
 | iEi Puzzle-M902 / Marvell CN9130 | OpenWRT 23.05.03 / 5.15.150      | 1.43 Gbits/sec | |
 | Phytium D2000x8 (2.3GHz)         | Debian trixie / 6.11.7           | 1.49 Gbits/sec | |
+| TP-Link TL-7DR7299 v1 / MT7988A  | OpenWrt SNAPSHOT / 6.18.55       | 1.52 Gbits/sec | Overclocked 2.2Ghz |
 | Intel Celeron N4500              | Linux pve / 6.2.16-3-pve         | 1.54 Gbits/sec | |
 | OneThingCloud OES / Amlogic A311D| Armbian Trixie / 6.18.16-ophub   | 1.55 Gbits/sec | |
 | Intel i5-7300U                   | ArchLinux / 6.17.1-2-cachyos     | 1.59 Gbits/sec | |
