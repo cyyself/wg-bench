@@ -45,6 +45,7 @@ sh <(wget -O - https://raw.githubusercontent.com/cyyself/wg-bench/master/openwrt
 | Zyxel WSM20 / MT7621AT           | OpenWrt 23.05.2 / 5.15.137       | 98.3 Mbits/sec | |
 | ASUS RT-AX53U / MT7621AT         | OpenWrt 23.05.2 / 5.15.137       | 98.9 Mbits/sec | |
 | Ubiquit EdgeRouter-X / MT7621AT  | OpenWrt 23.05.2 / 5.15.137       | 99 Mbits/sec   | |
+| TP-Link RE500 v1 / MT7621AT      | OpenWrt 25.12.6 / 6.12.112       | 99.9 Mbits/sec | |
 | Beeline SmartBox GIGA / MT7621A  | OpenWrt 23.05.2 / 5.15.137       | 100 Mbits/sec  | |
 | Beeline SmartBox PRO / MT7621AT  | OpenWrt 23.05.2 / 5.15.137       | 101 Mbits/sec  | |
 | Beeline SmartBox TURBO+ / MT7621A | OpenWrt Snapshot / 5.15.148     | 104 Mbits/sec  | |
